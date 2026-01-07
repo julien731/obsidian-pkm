@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "areas/2026 Team Goals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "2026 Team Goals"
             }
           }
         ]
@@ -190,6 +190,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -201,6 +202,23 @@
   },
   "active": "4f7c984091361eb9",
   "lastOpenFiles": [
-    "Welcome.md"
+    "areas/2026 Team Goals.md",
+    "templates/One-on-One.md",
+    "people",
+    "templates/Person.md",
+    "templates/Quarterly Review.md",
+    "templates/Hiring Interview.md",
+    "Welcome.md",
+    "templates/Project Brief.md",
+    "templates/Meeting Note.md",
+    "templates/Daily Note.md",
+    "daily",
+    "templates",
+    "resources",
+    "areas",
+    "projects",
+    "meetings",
+    "inbox",
+    "README.md"
   ]
 }
