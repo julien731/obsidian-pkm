@@ -1,0 +1,8 @@
+# Obsidian workspace files (device-specific, shouldn't sync)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspaces.json
+
+# System files
+.DS_Store
+.trash/
