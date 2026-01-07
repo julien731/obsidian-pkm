@@ -1,7 +1,5 @@
 # Obsidian workspace files (device-specific, shouldn't sync)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/workspaces.json
+**/.obsidian/workspace*.json
 
 # System files
 .DS_Store
