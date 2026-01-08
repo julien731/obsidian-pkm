@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "areas/2026 Team Goals.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "2026 Team Goals"
             }
           }
         ]
@@ -186,8 +186,8 @@
   },
   "active": "e81ba81a4f80c3df",
   "lastOpenFiles": [
-    "inbox/This is hands-down the best monitoring utility for Proxmox.md",
     "README.md",
+    "inbox/This is hands-down the best monitoring utility for Proxmox.md",
     "areas/2026 Team Goals.md",
     "templates/One-on-One.md",
     "people",
