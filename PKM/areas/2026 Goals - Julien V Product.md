@@ -4,11 +4,14 @@ status: active
 created: 2026-01-09
 year: 2026
 tags: [goals, team, product, strategy]
+summary: Julien V.'s (Principal PM) input on 2026 priorities, focusing on client influence, quality on Jollibee, AI standardization, and analytics proficiency.
 related:
   - "[[areas/2026 Team Goals]]"
   - "[[areas/2026 Team Goals Analysis]]"
   - "[[people/Julien V]]"
 ---
+
+This document captures [[people/Julien V]]'s (Principal Product Manager at Nimble) input for 2026 team goals. He highlights problems with corporate client influence (Jollibee driving poor decisions), quality issues on JB Web, and designers disconnected from testing. He advocates for AI standardization and analytics proficiency for all PMs. For the consolidated analysis across all leaders, see [[areas/2026 Team Goals Analysis]].
 
 ## Contributor
 

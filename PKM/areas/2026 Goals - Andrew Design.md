@@ -4,11 +4,14 @@ status: active
 created: 2026-01-09
 year: 2026
 tags: [goals, team, design, strategy]
+summary: Andrew's (Lead Designer) input on 2026 priorities, focusing on Figma Make adoption, pre-design alignment, consultant mindset, and designer career paths.
 related:
   - "[[areas/2026 Team Goals]]"
   - "[[areas/2026 Team Goals Analysis]]"
   - "[[people/Andrew]]"
 ---
+
+This document captures [[people/Andrew]]'s (Lead Designer at Nimble) input for 2026 team goals. He identifies problems to fix (misalignment before design, passive order-taking, over-reliance on copying competitors) and proposes solutions (Figma Make workflow, three-stage testing, clear career paths, stricter onboarding). For the consolidated analysis across all leaders, see [[areas/2026 Team Goals Analysis]].
 
 ## Contributor
 

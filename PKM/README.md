@@ -83,7 +83,9 @@ All notes use YAML frontmatter with these fields:
 
 ## AI Usage Notes
 
-This vault is designed for AI-assisted analysis. When querying with Claude:
+This vault is designed for AI-assisted analysis. See [CLAUDE.md](CLAUDE.md) for the full AI context file.
+
+### Basic Conventions
 
 - Frontmatter enables filtering (e.g., "all client meetings from Q4")
 - The `related` field creates an explicit knowledge graph
@@ -92,3 +94,66 @@ This vault is designed for AI-assisted analysis. When querying with Claude:
 - `source` field distinguishes automated captures from manual notes
 - `created` vs `date` enables "when did I write this" vs "when did this happen"
 - Link people with `[[people/Name]]` to build relationship context over time
+
+### AI Optimization Principles
+
+These principles make notes more effective for LLM retrieval and understanding:
+
+#### 1. Use the `summary` Field
+
+Add a one-sentence `summary` in frontmatter for every note. This allows AI to understand a note's purpose without reading the full content.
+
+```yaml
+summary: Consolidated analysis of 2026 team goals from four Nimble leaders.
+```
+
+#### 2. Self-Contained First Paragraph
+
+The first paragraph after frontmatter should provide full context: who, what, why, and how this note relates to others. A note should be understandable without following links.
+
+**Good:**
+> This document captures Andrew's (Lead Designer at Nimble) input for 2026 team goals. He identifies problems to fix and proposes solutions. For the consolidated analysis, see [[areas/2026 Team Goals Analysis]].
+
+**Weak:**
+> Andrew's input on goals.
+
+#### 3. Explicit Over Implicit
+
+State context explicitly rather than relying on folder paths or assumptions:
+- Include full names and roles on first mention
+- Avoid ambiguous pronouns ("it", "they") that lose meaning when chunked
+- Repeat key context rather than assuming link-following
+
+#### 4. Consistent Structure Within Types
+
+Notes of the same type should follow the same section structure. This enables pattern matching across similar notes. Example for goals input:
+- Contributor
+- What to Fix
+- What to Accomplish
+- Skills to Develop
+
+#### 5. Explicit Cross-References
+
+When linking, include semantic context:
+
+**Good:** "For the consolidated analysis across all leaders, see [[areas/2026 Team Goals Analysis]]."
+
+**Weak:** `related: [[areas/2026 Team Goals Analysis]]` (frontmatter only)
+
+#### 6. Atomic Notes
+
+One concept per file. Smaller, focused notes (300-500 words) retrieve more precisely than large documents where relevant content is buried.
+
+#### 7. Hierarchical Headers
+
+Use consistent heading hierarchy (H1 → H2 → H3). Header text provides semantic labels that help with chunking and contextual retrieval.
+
+### What Hurts LLM Retrieval
+
+| Pattern | Problem |
+|---------|---------|
+| Tables with merged cells | Parsing fails |
+| Images without alt text | No semantic content |
+| Heavy abbreviations | Context lost when chunked |
+| Ambiguous pronouns | Referent unclear in isolation |
+| Links without context | AI may not follow links |

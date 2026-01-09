@@ -5,10 +5,13 @@ company: Nimble
 role: Principal Product Manager
 context: colleague
 tags: [product, leadership, team]
+summary: Principal Product Manager at Nimble, focused on product strategy, PM excellence, and client influence.
 related:
   - "[[areas/2026 Goals - Julien V Product]]"
   - "[[areas/2026 Team Goals Analysis]]"
 ---
+
+Julien V. is the Principal Product Manager at Nimble, a software consultancy. He focuses on product strategy, PM team excellence, and building influence with corporate clients. He works under [[people/Vu]] (Head of Product) and collaborates with [[people/Andrew]] (Lead Designer).
 
 ## Overview
 

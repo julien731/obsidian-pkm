@@ -4,10 +4,13 @@ status: active
 created: 2026-01-09
 year: 2026
 tags: [goals, team, leadership, strategy]
+summary: Julien's (CPO) high-level input on 2026 priorities, focusing on AI workflows, stakeholder relationships, quality standards, and PM discovery skills.
 related:
   - "[[areas/2026 Team Goals]]"
   - "[[areas/2026 Team Goals Analysis]]"
 ---
+
+This document captures Julien's (CPO) strategic input for Nimble's 2026 team goals. It outlines problems to fix (visibility, QA burden, weak stakeholder relationships, quality degradation, shallow discovery) and goals to accomplish (end-to-end AI workflows, better training, stronger influence). For the consolidated analysis across all leaders, see [[areas/2026 Team Goals Analysis]].
 
 ## Contributor
 

@@ -4,6 +4,7 @@ status: active
 created: 2026-01-09
 year: 2026
 tags: [goals, team, analysis, strategy]
+summary: Consolidated analysis of 2026 team goals from four Nimble leaders, identifying alignment on AI adoption, quality standards, and client relationships.
 related:
   - "[[areas/2026 Team Goals]]"
   - "[[areas/2026 Goals - Julien Leadership Input]]"
@@ -11,6 +12,8 @@ related:
   - "[[areas/2026 Goals - Julien V Product]]"
   - "[[areas/2026 Goals - Vu Head of Product]]"
 ---
+
+This document is the consolidated analysis of Nimble's 2026 team goals, synthesizing input from four leaders: Julien (CPO), [[people/Andrew]] (Lead Designer), [[people/Julien V]] (Principal Product Manager), and [[people/Vu]] (Head of Product). It identifies areas of alignment, unique perspectives, and six priority actions for the year. For the original raw inputs, see [[areas/2026 Team Goals]].
 
 ## Overview
 

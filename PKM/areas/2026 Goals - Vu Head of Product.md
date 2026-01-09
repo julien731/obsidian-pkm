@@ -4,11 +4,14 @@ status: active
 created: 2026-01-09
 year: 2026
 tags: [goals, team, product, strategy]
+summary: Vu's (Head of Product) input on 2026 priorities, focusing on quality mindset, escalation practices, PM-designer collaboration, resource management automation, and crisis skills.
 related:
   - "[[areas/2026 Team Goals]]"
   - "[[areas/2026 Team Goals Analysis]]"
   - "[[people/Vu]]"
 ---
+
+This document captures [[people/Vu]]'s (Head of Product at Nimble) input for 2026 team goals. He identifies systemic issues: quality compromises despite PM awareness, late escalation patterns (JB Web, Jones Salad), PM-designer isolation, and painful resource management. He proposes automation of shallow work, more cross-team sharing, and developing "wartime" PM skills. For the consolidated analysis across all leaders, see [[areas/2026 Team Goals Analysis]].
 
 ## Contributor
 
