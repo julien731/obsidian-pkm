@@ -157,3 +157,35 @@ Use consistent heading hierarchy (H1 → H2 → H3). Header text provides semant
 | Heavy abbreviations | Context lost when chunked |
 | Ambiguous pronouns | Referent unclear in isolation |
 | Links without context | AI may not follow links |
+
+### Claude Commands
+
+Custom commands are available in `.claude/commands/`. Use these to automate vault maintenance.
+
+#### `/review-notes` - Review and Fix Manual Notes
+
+Cleans up manually-created notes to comply with AI-first organization standards.
+
+**What it does:**
+- Finds notes missing required frontmatter (especially `summary`)
+- Adds missing fields (`type`, `created`, `status`, `tags`, `related`)
+- Generates summaries from content
+- Adds self-contained first paragraphs where missing
+- Batches any ambiguous cases for human input at the end
+
+**Usage:**
+```
+/review-notes                    # Review notes from last 7 days
+/review-notes inbox/             # Review specific folder
+/review-notes areas/MyNote.md    # Review specific file
+/review-notes --all              # Review entire vault
+```
+
+**When human input is needed:**
+- Type is ambiguous (content doesn't fit a single category)
+- Status is unclear (active vs. completed vs. archived)
+- Summary requires interpretation
+- Related notes are uncertain
+- Personal vs. work classification is unclear
+
+See [CLAUDE.md](CLAUDE.md) for full review standards.

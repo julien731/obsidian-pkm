@@ -4,9 +4,9 @@ This file provides context for AI assistants (primarily Claude) working with thi
 
 ## Vault Owner
 
-**Julien** - Chief Product Officer (CPO) at Nimble, a software consultancy based in Bangkok, Thailand. This is his personal knowledge management vault for work-related notes.
+**Julien** - Chief Product Officer (CPO) at Nimble, a software consultancy based in Bangkok, Thailand. This vault contains both professional and personal knowledge management: work notes, personal projects, research, learning, and life management.
 
-## Organization: Nimble
+## Work Context: Nimble
 
 Nimble is a software consultancy that builds digital products for clients. The Product & Design team includes:
 
@@ -16,6 +16,16 @@ Nimble is a software consultancy that builds digital products for clients. The P
 - **[[people/Andrew]]** - Lead Designer, oversees design team
 
 Key clients mentioned in notes include Jollibee (JB), CBTL, Jones Salad, and internal product Okya.
+
+## Personal Context
+
+This vault also contains personal notes unrelated to Nimble. These may include:
+- Personal projects and side ventures
+- Learning and research on various topics
+- Life areas (health, finance, relationships, hobbies)
+- Personal reflections and journaling
+
+When working with personal notes, the same structural conventions apply, but work-specific context (Nimble, clients, team members) may not be relevant.
 
 ## Vault Structure
 
@@ -76,3 +86,44 @@ When working with this vault:
 3. **Use explicit references**: When linking, include context (e.g., "See [[page]] for the full analysis")
 4. **Maintain self-contained notes**: Each note should be understandable without following links
 5. **Add `summary` to new notes**: One sentence that captures the note's purpose
+
+## Note Review Standards
+
+When reviewing manually-created notes (via `/review-notes` command), check and fix:
+
+### Required Frontmatter
+
+| Field | Required | How to Determine |
+|-------|----------|------------------|
+| `type` | Always | Infer from folder location and content |
+| `created` | Always | Use file creation date or today's date |
+| `status` | For actionable notes | Default to `active` for ongoing items |
+| `summary` | Always | Generate one-sentence description from content |
+| `tags` | Recommended | Extract key themes from content |
+| `related` | If links exist | Convert inline `[[links]]` to frontmatter |
+
+### Type-Specific Fields
+
+| Type | Additional Required Fields |
+|------|---------------------------|
+| `meeting` | `date`, `meeting_type`, `attendees` |
+| `person` | `company`, `role`, `context` |
+| `project` | `client` (if applicable), `phase` |
+| `hiring` | `candidate`, `role`, `stage` |
+
+### Content Standards
+
+1. **First paragraph**: Must be self-contained (who, what, why, relationships)
+2. **Links with context**: `[[page]]` should have surrounding explanation
+3. **Explicit references**: No ambiguous "it", "they", "this" without clear antecedent
+4. **Hierarchical headers**: H2 for sections, H3 for subsections
+
+### When to Ask for Human Input
+
+Request clarification when:
+- **Type is ambiguous**: Content doesn't clearly fit a single type
+- **Status is unclear**: Can't determine if item is active, completed, or archived
+- **Summary requires interpretation**: The note's purpose isn't obvious from content
+- **Related notes are uncertain**: Potential links exist but relevance is unclear
+- **Missing critical context**: Names, dates, or relationships that can't be inferred
+- **Personal vs. work classification**: Unclear if note relates to Nimble or personal life
