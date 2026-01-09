@@ -159,11 +159,11 @@ Use consistent heading hierarchy (H1 → H2 → H3). Header text provides semant
 | Ambiguous pronouns | Referent unclear in isolation |
 | Links without context | AI may not follow links |
 
-### Claude Commands
+### Synapse Commands
 
-Custom commands are available in `.claude/commands/`. Use these to automate vault maintenance.
+Synapse commands are available in `.claude/commands/`. Use these to manage your vault.
 
-#### `/pkm-setup` - Initialize or Reconfigure Vault
+#### `/synapse-setup` - Initialize or Reconfigure Vault
 
 Personalizes the vault for a new user through a short interview (2-3 questions).
 
@@ -175,12 +175,12 @@ Personalizes the vault for a new user through a short interview (2-3 questions).
 
 **Usage:**
 ```
-/pkm-setup                       # Run the setup interview
+/synapse-setup                   # Run the setup interview
 ```
 
 Run this when you first adopt the vault, or anytime you want to update your context.
 
-#### `/review-notes` - Review and Fix Manual Notes
+#### `/synapse-review` - Review and Fix Manual Notes
 
 Cleans up manually-created notes to comply with AI-first organization standards.
 
@@ -193,10 +193,10 @@ Cleans up manually-created notes to comply with AI-first organization standards.
 
 **Usage:**
 ```
-/review-notes                    # Review notes from last 7 days
-/review-notes inbox/             # Review specific folder
-/review-notes areas/MyNote.md    # Review specific file
-/review-notes --all              # Review entire vault
+/synapse-review                  # Review notes from last 7 days
+/synapse-review inbox/           # Review specific folder
+/synapse-review areas/MyNote.md  # Review specific file
+/synapse-review --all            # Review entire vault
 ```
 
 **When human input is needed:**
@@ -205,5 +205,30 @@ Cleans up manually-created notes to comply with AI-first organization standards.
 - Summary requires interpretation
 - Related notes are uncertain
 - Personal vs. work classification is unclear
+
+#### `/synapse-update` - Update Framework
+
+Pull the latest Synapse framework updates into your vault.
+
+**What it does:**
+- Fetches latest commands and templates from the Synapse repository
+- Updates framework documentation while preserving your personal context
+- Shows preview before applying changes
+
+**Usage:**
+```
+/synapse-update                  # Check for and apply updates
+/synapse-update --check          # Only check, don't apply
+```
+
+#### `/synapse-publish` - Publish Framework Changes (Maintainers)
+
+Push framework improvements from your instance to the public Synapse repository.
+
+**Usage:**
+```
+/synapse-publish                 # Interactive publish flow
+/synapse-publish --dry-run       # Preview what would be published
+```
 
 See [CLAUDE.md](CLAUDE.md) for full review standards.

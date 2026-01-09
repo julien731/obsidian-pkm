@@ -1,6 +1,6 @@
-# Review Notes Command
+# Synapse Review Command
 
-Review manually-created notes in the PKM vault and fix them to comply with AI-first organization standards defined in `PKM/CLAUDE.md`.
+Review manually-created notes in the vault and fix them to comply with AI-first organization standards defined in `CLAUDE.md`.
 
 ## Scope
 
@@ -43,7 +43,7 @@ Questions to ask when uncertain:
 - Is this note active, completed, or archived?
 - What is the main purpose of this note? (for summary)
 - Should this link to [other note]? (for related)
-- Is this a work (Nimble) note or personal?
+- Is this a work note or personal?
 
 ### 4. Apply Fixes
 
@@ -62,16 +62,16 @@ After processing all notes, provide:
 
 ## Example Usage
 
-User: `/review-notes`
+User: `/synapse-review`
 → Review notes from last 7 days missing summary field
 
-User: `/review-notes inbox/`
+User: `/synapse-review inbox/`
 → Review all notes in inbox folder
 
-User: `/review-notes areas/2026 Team Goals.md`
+User: `/synapse-review areas/2026 Team Goals.md`
 → Review specific file
 
-User: `/review-notes --all`
+User: `/synapse-review --all`
 → Review entire vault (will take longer)
 
 ## Notes

@@ -16,7 +16,7 @@ Separate the PKM framework (reusable by anyone) from the personal vault content 
 - Public repo `synapse-pkm` (or `synapse-obsidian`) contains only framework files
 - Private repo (current vault) contains personal content
 - Both can be worked on from the same LLM context
-- Users can clone the framework, run `/pkm-setup`, and start using it
+- Users can clone the framework, run `/synapse-setup`, and start using it
 
 ## Repository
 
@@ -30,8 +30,8 @@ Separate the PKM framework (reusable by anyone) from the personal vault content 
 synapse-pkm/
 ├── .claude/
 │   ├── commands/
-│   │   ├── pkm-setup.md
-│   │   ├── review-notes.md
+│   │   ├── synapse-setup.md
+│   │   ├── synapse-review.md
 │   │   ├── synapse-update.md
 │   │   └── synapse-publish.md
 │   └── synapse-config.json
@@ -61,14 +61,14 @@ synapse-pkm/
 1. [ ] Create `synapse-pkm` repo on GitHub (public)
 2. [ ] Create template versions of CLAUDE.md and README.md
    - Replace personal references (Julien, Nimble, team members) with placeholders
-   - Add "Getting Started" section explaining `/pkm-setup`
+   - Add "Getting Started" section explaining `/synapse-setup`
 3. [ ] Copy framework files to new repo
 4. [ ] Add LICENSE (MIT or similar)
 5. [ ] Update `.gitignore` for the framework repo
 6. [ ] Write user-facing README with:
    - What this framework is
    - How to install (clone + open in Obsidian)
-   - How to configure (`/pkm-setup`)
+   - How to configure (`/synapse-setup`)
    - Available commands
    - AI optimization principles (condensed)
 7. [ ] Test fresh clone + setup flow

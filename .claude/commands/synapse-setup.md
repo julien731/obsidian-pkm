@@ -1,10 +1,10 @@
-# PKM Setup Command
+# Synapse Setup Command
 
 Initialize or reconfigure the Obsidian vault for a new user. This command collects context about the user and updates CLAUDE.md and README.md to reflect their specific situation.
 
 ## Purpose
 
-When someone adopts this PKM framework, the vault documentation contains placeholder/example content (references to "Julien", "Nimble", etc.). This command personalizes the vault by:
+When someone adopts the Synapse framework, the vault documentation contains placeholder/example content. This command personalizes the vault by:
 
 1. Gathering essential user context through a short interview
 2. Updating CLAUDE.md with their specific context
@@ -111,12 +111,12 @@ If team members were provided, offer to create people/ pages for them with basic
 - **Idempotent**: Running setup again should work (reconfigure, not break)
 - **Minimal questions**: The goal is 2-3 interactions max for basic setup
 - **No pressure**: Make it clear they can skip and add context later
-- **Clean output**: After setup, confirm what was changed and remind them they can re-run `/pkm-setup` anytime
+- **Clean output**: After setup, confirm what was changed and remind them they can re-run `/synapse-setup` anytime
 
 ## Example Session
 
 ```
-User: /pkm-setup
+User: /synapse-setup
 
 Claude: Let's set up your vault.
 
@@ -153,6 +153,6 @@ Updating CLAUDE.md and README.md...
 
 Done! Your vault is configured. You can:
 - Start creating notes in any folder
-- Run /pkm-setup again anytime to update your context
+- Run /synapse-setup again anytime to update your context
 - Add team members by creating pages in people/
 ```
