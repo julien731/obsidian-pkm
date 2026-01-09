@@ -13,6 +13,7 @@
 
 - You must have the `synapse-pkm` repo cloned locally at `~/workspace/synapse-pkm`
 - You must have push access to the repository
+- Run `/synapse-changelog` first to document what changed (recommended)
 
 ## Configuration
 
@@ -58,7 +59,7 @@ For each changed file:
 
      **[Your Name]** - [Your Role] at [Your Organization]. This vault contains...
 
-     (Run `/pkm-setup` to personalize this section)
+     (Run `/synapse-setup` to personalize this section)
      <!-- SYNAPSE:USER-CONTEXT:END -->
      ```
 
@@ -87,16 +88,16 @@ synapse-pkm/
 └── ...
 ```
 
-### Step 5: Version Bump (Optional)
+### Step 5: Changelog Check
 
-Ask if this is a:
-- **Patch** (bug fixes, minor improvements): 1.0.0 → 1.0.1
-- **Minor** (new features, commands): 1.0.0 → 1.1.0
-- **Major** (breaking changes): 1.0.0 → 2.0.0
+Check if CHANGELOG.md has been updated for this release:
 
-Update version in:
-- `synapse-version.json` (in framework repo)
-- `CHANGELOG.md` (if exists)
+1. Look for an entry matching the version being published
+2. If no changelog entry exists, prompt:
+   - "No changelog entry found. Run `/synapse-changelog` first? (recommended)"
+   - Options: Run changelog command / Skip changelog / Cancel
+
+For breaking changes, **require** a changelog entry with migration instructions before allowing publish.
 
 ### Step 6: Commit and Push (Optional)
 
@@ -120,10 +121,11 @@ If yes:
 The command knows these are framework files:
 
 ```
-.claude/commands/pkm-setup.md
-.claude/commands/review-notes.md
+.claude/commands/synapse-setup.md
+.claude/commands/synapse-review.md
 .claude/commands/synapse-update.md
 .claude/commands/synapse-publish.md
+.claude/commands/synapse-changelog.md
 templates/Daily Note.md
 templates/Meeting Note.md
 templates/Hiring Interview.md
@@ -193,5 +195,6 @@ Published Synapse v1.0.1
 
 - Always review the diff before confirming publish
 - The command won't publish your personal notes—only framework files
-- Keep CHANGELOG.md updated in the framework repo for users to see what's new
+- Run `/synapse-changelog` before publishing to document changes for users
+- Breaking changes require a changelog entry with migration instructions
 - Consider testing `/synapse-update` in a fresh clone after publishing

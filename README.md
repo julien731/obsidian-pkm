@@ -212,6 +212,7 @@ Pull the latest Synapse framework updates into your vault.
 
 **What it does:**
 - Fetches latest commands and templates from the Synapse repository
+- Shows changelog with migration instructions for breaking changes
 - Updates framework documentation while preserving your personal context
 - Shows preview before applying changes
 
@@ -229,6 +230,23 @@ Push framework improvements from your instance to the public Synapse repository.
 ```
 /synapse-publish                 # Interactive publish flow
 /synapse-publish --dry-run       # Preview what would be published
+```
+
+#### `/synapse-changelog` - Generate Changelog (Maintainers)
+
+Create changelog entries for framework releases with migration instructions.
+
+**What it does:**
+- Reviews commits since last version tag
+- Categorizes changes (Added, Changed, Fixed, Breaking)
+- Prompts for migration instructions on breaking changes
+- Updates CHANGELOG.md and creates version tag
+
+**Usage:**
+```
+/synapse-changelog               # Interactive changelog generation
+/synapse-changelog 0.2.0         # Generate entry for specific version
+/synapse-changelog --preview     # Preview without writing
 ```
 
 See [CLAUDE.md](CLAUDE.md) for full review standards.

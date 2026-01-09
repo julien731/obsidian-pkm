@@ -47,20 +47,112 @@ Framework documentation here (updated automatically)
 Fetch the latest version info from the Synapse repository:
 - Current local version (stored in `.claude/synapse-version.json`)
 - Latest remote version
-- Changelog of what's new
 
 If already up to date, inform user and exit.
 
-### Step 2: Preview Changes
+### Step 2: Show Changelog
+
+Fetch and display the CHANGELOG.md entries between the user's current version and the latest version:
+
+1. Read `CHANGELOG.md` from the framework repo
+2. Extract entries from current version to latest
+3. Display in order (newest first)
+4. **Highlight any Breaking Changes** with migration instructions
+
+Example output:
+```
+Updates available: 1.0.0 → 1.2.0
+
+## 1.2.0 - 2026-01-15
+
+### Added
+- New `/synapse-review` options for folder-specific reviews
+
+### Fixed
+- Template frontmatter date format
+
+## 1.1.0 - 2026-01-10
+
+### Breaking Changes
+- **Command renamed: /pkm-setup → /synapse-setup**
+
+  Migration:
+  1. Use `/synapse-setup` instead of `/pkm-setup`
+
+### Added
+- `/synapse-changelog` command for maintainers
+```
+
+If there are **Breaking Changes**, warn the user prominently and show migration steps before proceeding.
+
+### Step 3: Safety Check
+
+Before making any changes, perform safety checks and warn about potential risks:
+
+**Check for risky conditions:**
+
+1. **Missing section markers** in CLAUDE.md or README.md
+   - Risk: Cannot reliably separate user content from framework content
+   - Action: Warn user that update might overwrite personal content
+
+2. **Corrupted or malformed markers** (e.g., START without END)
+   - Risk: Content boundaries unclear
+   - Action: Show the issue and ask user to fix manually first
+
+3. **User modifications to framework files** (commands, templates)
+   - Risk: Customizations will be overwritten
+   - Action: List modified files and ask for confirmation per file
+
+4. **Major version jump** (e.g., 1.x → 2.x)
+   - Risk: Structural changes may affect content organization
+   - Action: Require explicit confirmation, recommend reading migration guide
+
+**If any risks detected, display:**
+
+```
+⚠️  Potential data risk detected:
+
+- CLAUDE.md is missing SYNAPSE:USER-CONTEXT:END marker
+- templates/Meeting Note.md has local modifications
+
+These issues may cause content loss during update. Changes can be
+restored from git history, but review carefully before proceeding.
+
+Options:
+1. Create backup branch and continue (recommended)
+2. Continue without backup
+3. Cancel and fix issues manually
+```
+
+### Step 4: Create Backup Branch (If Needed)
+
+When risks are detected OR for major version updates, create a backup branch:
+
+```bash
+git checkout -b synapse-backup-YYYY-MM-DD-HHMMSS
+git add -A
+git commit -m "backup: pre-update snapshot before Synapse x.x.x → y.y.y"
+git checkout -  # Return to original branch
+```
+
+This allows easy restoration via `git checkout synapse-backup-...` if something goes wrong.
+
+Skip backup creation if:
+- User explicitly chose "Continue without backup"
+- No risks were detected AND it's a minor/patch update
+- `--no-backup` flag was passed
+
+### Step 5: Preview Changes
 
 Show the user what will change:
 - New/modified commands
 - New/modified templates
 - Documentation updates
+- Any files where user content might be affected (highlighted)
 
 Ask for confirmation before proceeding.
 
-### Step 3: Apply Updates
+### Step 6: Apply Updates
 
 For each framework file:
 
@@ -83,7 +175,7 @@ For each framework file:
    - Preserve the title and first paragraph (user identity)
    - Update framework documentation sections
 
-### Step 4: Update Version Tracking
+### Step 7: Update Version Tracking
 
 Update `.claude/synapse-version.json` with:
 ```json
@@ -94,9 +186,15 @@ Update `.claude/synapse-version.json` with:
 }
 ```
 
-### Step 5: Summary
+### Step 8: Summary
 
 Report what was updated and any manual steps needed.
+
+If a backup branch was created, remind the user:
+```
+Backup branch created: synapse-backup-2026-01-09-143022
+If anything looks wrong, restore with: git checkout synapse-backup-2026-01-09-143022
+```
 
 ## Usage
 
@@ -104,6 +202,7 @@ Report what was updated and any manual steps needed.
 /synapse-update              # Check for and apply updates
 /synapse-update --check      # Only check, don't apply
 /synapse-update --force      # Update even if versions match
+/synapse-update --no-backup  # Skip backup branch creation
 ```
 
 ## Handling Conflicts
@@ -133,11 +232,15 @@ Can be configured in `.claude/synapse-config.json`:
 ## Error Handling
 
 - **No internet**: Inform user, suggest trying later
-- **Markers missing**: Guide user to add markers or run `/pkm-setup` again
+- **Markers missing**: Guide user to add markers or run `/synapse-setup` again
 - **Merge conflict**: Present options, don't auto-resolve
 
 ## Notes
 
 - Updates are non-destructive: your content is always preserved
-- You can always re-run `/pkm-setup` after an update if context sections get corrupted
+- Backup branches are created automatically when risks are detected
+- You can always re-run `/synapse-setup` after an update if context sections get corrupted
 - Custom commands you create (not part of Synapse) are never touched
+- The changelog is fetched from the framework repo's CHANGELOG.md file
+- To list all backup branches: `git branch | grep synapse-backup`
+- To delete old backups: `git branch -d synapse-backup-YYYY-MM-DD-HHMMSS`
