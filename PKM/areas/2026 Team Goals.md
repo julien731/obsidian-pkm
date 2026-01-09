@@ -4,8 +4,47 @@ status: active
 created: 2026-01-07
 year: 2026
 tags: [goals, team]
-related: []
+related:
+  - "[[areas/2026 Team Goals Analysis]]"
+  - "[[areas/2026 Goals - Julien Leadership Input]]"
+  - "[[areas/2026 Goals - Andrew Design]]"
+  - "[[areas/2026 Goals - Julien V Product]]"
+  - "[[areas/2026 Goals - Vu Head of Product]]"
 ---
+
+## Executive Summary
+
+> Full analysis: [[areas/2026 Team Goals Analysis]]
+
+### The 2026 Mission
+Transform from **execution partners** to **strategic consultants** through AI-enabled workflows, stronger stakeholder relationships, and non-negotiable quality standards.
+
+### Leadership Alignment: Strong
+All four leaders ([[people/Andrew]], [[people/Julien V]], [[people/Vu]], and myself) converge on three priorities:
+
+| Priority | What It Means |
+|----------|---------------|
+| **AI adoption** | Standardize AI across all workflows (not ad-hoc) |
+| **Quality first** | No more compromising standards for timelines |
+| **Client relationships** | Build ties with decision-makers, not just POs |
+
+### Six Actions for 2026
+
+1. **Quality gates** - Non-negotiable standards before release
+2. **Stakeholder mapping** - Direct access to decision-makers
+3. **AI workflows** - Figma Make (design) + AI PRDs/stories (product) + n8n (ops)
+4. **Alignment checkpoints** - Before design begins, not after
+5. **Skill building** - Strategic communication, analytics, crisis management
+6. **Operations** - Automate resource management, fix onboarding
+
+### Key Shift
+
+| 2025 | 2026 |
+|------|------|
+| React to client demands | Consult and guide clients |
+| Quality when time allows | Quality always |
+| Work independently | Collaborate visibly |
+| Shallow discovery | Deep understanding first |
 
 ## What We Need to Fix
 
