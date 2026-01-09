@@ -163,6 +163,23 @@ Use consistent heading hierarchy (H1 → H2 → H3). Header text provides semant
 
 Custom commands are available in `.claude/commands/`. Use these to automate vault maintenance.
 
+#### `/pkm-setup` - Initialize or Reconfigure Vault
+
+Personalizes the vault for a new user through a short interview (2-3 questions).
+
+**What it does:**
+- Collects your identity (name, role, organization)
+- Asks what you'll use the vault for (work, personal, learning, etc.)
+- Optionally captures work context (team members, clients)
+- Updates CLAUDE.md and README.md with your specific context
+
+**Usage:**
+```
+/pkm-setup                       # Run the setup interview
+```
+
+Run this when you first adopt the vault, or anytime you want to update your context.
+
 #### `/review-notes` - Review and Fix Manual Notes
 
 Cleans up manually-created notes to comply with AI-first organization standards.
