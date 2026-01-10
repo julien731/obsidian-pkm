@@ -249,4 +249,68 @@ Create changelog entries for framework releases with migration instructions.
 /synapse-changelog --preview     # Preview without writing
 ```
 
+#### `/synapse-migrate-notion` - Migrate from Notion
+
+Import content from a Notion export into your Synapse vault with interactive mapping.
+
+**What it does:**
+1. Scans your Notion export to auto-detect structure and properties
+2. Shows you what it found (folders, property types, values)
+3. Asks you to map each folder/type to a Synapse destination
+4. Converts Notion properties to YAML frontmatter
+5. Rebuilds relationships as `[[wikilinks]]`
+6. Cleans up Notion artifacts (UUIDs, broken links)
+7. Generates a migration report
+
+**Auto-detection includes:**
+- Folder structure and file counts
+- Property names and types (from sampling files)
+- Property values (for select/status fields)
+- Relationship properties (links to other databases)
+
+**Interactive mapping:**
+```
+=== Notion Export Analysis ===
+
+Folders found:
+- Projects/ (45 files)
+- Resources/ (120 files)
+
+Properties detected:
+- Type: Article, Video, Note (3 values)
+- Status: Active, Done, Archived
+
+=== Folder Mapping ===
+
+Where should "Projects/" content go?
+  1. projects/ (Recommended)
+  2. areas/
+  3. resources/
+  4. Custom path...
+```
+
+**Sensible defaults:**
+| Pattern in folder/type name | Suggested destination |
+|-----------------------------|----------------------|
+| project | `projects/` |
+| resource, reference | `resources/` |
+| archive | `archive/` |
+| meeting, journal | `journal/meetings/` |
+| note, inbox | `inbox/` |
+| people, contact | `people/` |
+| book | `resources/books/` |
+
+**Usage:**
+```
+/synapse-migrate-notion                 # Interactive migration
+/synapse-migrate-notion ~/path/export   # Specify export path
+/synapse-migrate-notion --dry-run       # Preview without writing
+/synapse-migrate-notion --use-config    # Reuse saved mapping
+```
+
+**Re-running migrations:**
+- Your mapping is saved to `.claude/migration-config.json`
+- Use `--use-config` to apply the same mapping to new exports
+- Existing files are skipped (no overwrites)
+
 See [CLAUDE.md](CLAUDE.md) for full review standards.

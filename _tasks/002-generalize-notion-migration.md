@@ -1,7 +1,8 @@
 ---
 type: task
-status: pending
+status: completed
 created: 2026-01-10
+completed: 2026-01-10
 tags:
   - synapse
   - framework
@@ -13,69 +14,64 @@ related:
 
 Make `/synapse-migrate-notion` generic for any Notion user, not just Julien's specific workspace structure.
 
-## Current State
+## Outcome
 
-The command currently has hardcoded mappings based on Julien's Notion workspace:
-- Specific type values (Article, Video, Brief, etc.)
-- Specific folder structure (second_brain/, projects/, tags/, etc.)
-- Specific property names (Type, Status, Tags, Projects, URL)
-
-## Goal
-
-Make the command auto-detect Notion structure and prompt users for mapping decisions.
+The command has been rewritten to be fully generic with auto-detection and interactive mapping.
 
 ## Implementation Steps
 
-1. [ ] Auto-detect Notion properties from export
-   - Scan first N files to find common property patterns
-   - Identify relationship properties vs. simple values
-   - Detect folder structure in export
+1. [x] Auto-detect Notion properties from export
+   - Scans export to find folder structure and file counts
+   - Samples 10-20 files to detect common property patterns
+   - Identifies property values for select/status fields
+   - Detects relationship properties (links to other pages)
 
-2. [ ] Interactive mapping flow
-   - Show detected types/folders
-   - Ask user to map each to Synapse destination
-   - Provide sensible defaults based on common patterns
-   - Allow "skip" for irrelevant content
+2. [x] Interactive mapping flow
+   - Shows detected structure analysis to user
+   - Asks user to map each folder to Synapse destination
+   - Offers type-based routing for Type/Category properties
+   - Handles status overrides (inbox → inbox/, archived → archive/)
+   - Provides sensible defaults based on pattern matching
 
-3. [ ] Save mapping configuration
-   - Store user's choices in `.claude/migration-config.json`
-   - Allow re-running migration with same mapping
-   - Support incremental migrations
+3. [x] Save mapping configuration
+   - Stores choices in `.claude/migration-config.json`
+   - Supports `--use-config` flag for re-running
+   - Skips existing files (no overwrites)
 
-4. [ ] Handle common Notion patterns
-   - Databases vs. pages
-   - Linked databases (relations)
-   - Rollups and formulas (skip or convert)
-   - Gallery/Board/Table views (ignore view type)
-   - Nested pages
+4. [x] Handle common Notion patterns
+   - UUIDs in filenames stripped automatically
+   - Property lines parsed (both simple and relation format)
+   - Callouts converted to Obsidian format
+   - Linked databases converted to wikilinks
+   - Nested exports recursively scanned
 
-5. [ ] Update documentation
-   - Remove Julien-specific examples
-   - Add generic examples
-   - Document common Notion → Synapse mappings
+5. [x] Update documentation
+   - README.md updated with generic examples
+   - Command file uses placeholder examples
+   - Sensible defaults documented
 
 6. [ ] Test with different Notion exports
-   - Simple workspace (pages only)
-   - Database-heavy workspace
-   - Nested structure
-   - Multiple databases with relations
+   - Validated with Julien's export (409 files)
+   - Additional testing needed with other workspace structures
 
-## Default Mappings to Keep
+## Default Mappings
 
-These mappings are sensible defaults for most users:
-
-| Pattern | Destination |
-|---------|-------------|
-| `**/inbox/**` or status=inbox | `inbox/` |
-| `**/archive/**` or status=archived | `archive/` |
-| Meeting-related types | `journal/meetings/` |
-| Journal/diary content | `journal/` |
-| Project-related | `projects/` |
-| Reference/resource | `resources/` |
-| People/contacts | `people/` |
+| Pattern | Suggested Destination |
+|---------|----------------------|
+| Folder contains "project" | `projects/` |
+| Folder contains "resource", "reference" | `resources/` |
+| Folder contains "archive" | `archive/` |
+| Folder contains "meeting", "journal" | `journal/meetings/` |
+| Folder contains "note", "inbox" | `inbox/` |
+| Folder contains "people", "contact" | `people/` |
+| Type = Meeting, Call, Interview | `journal/meetings/` |
+| Type = Article, Video, Podcast, Website | `resources/` |
+| Type = Book | `resources/books/` |
+| Status = inbox, new | `inbox/` override |
+| Status = archive, done, completed | `archive/` override |
 
 ## Notes
 
-- Complete Julien's migration first to validate the approach
-- Then refactor based on lessons learned
+- Command tested successfully with Julien's Notion export
+- Migration report generated at `_migration-report.md`
 - Consider supporting other sources later (Roam, Logseq, etc.)
