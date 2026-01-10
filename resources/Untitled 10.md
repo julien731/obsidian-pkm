@@ -1,0 +1,17 @@
+---
+type: resource
+created: 2026-01-10
+status: active
+url: https://www.instagram.com/p/Cwhgs_7Oz-5/?igshid=NmQ4MjZlMjE5YQ==
+tags:
+  - filmmaking
+related:
+  - "[[Shoot a movie with Julien on the MT]]"
+migrated_from: notion
+migrated_at: 2026-01-10
+---
+
+# Untitled
+
+
+![372105660_1812456602564941_1673262206970303795_n.jpg](Untitled%204048-8230/372105660_1812456602564941_1673262206970303795_n.jpg)
