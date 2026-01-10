@@ -1,9 +1,11 @@
 # Setup Public Framework Repository
 
-**Status**: Pending
+**Status**: Completed
 **Priority**: High
 **Created**: 2026-01-09
+**Completed**: 2026-01-10
 **Project Name**: Synapse
+**Version**: 0.1.0
 
 ## Summary
 
@@ -11,20 +13,17 @@ Separate the PKM framework (reusable by anyone) from the personal vault content 
 
 **Synapse** = The connection point between human knowledge and AI. A framework for structuring Obsidian vaults so AI assistants can effectively read, understand, and work with your notes.
 
-## Goal
+## Outcome
 
-- Public repo `synapse-pkm` (or `synapse-obsidian`) contains only framework files
-- Private repo (current vault) contains personal content
-- Both can be worked on from the same LLM context
-- Users can clone the framework, run `/synapse-setup`, and start using it
+Released Synapse v0.1.0 at https://github.com/julien731/synapse-pkm
 
 ## Repository
 
-- **GitHub**: `git@github.com:julien731/synapse-pkm.git`
+- **GitHub**: https://github.com/julien731/synapse-pkm
 - **Local clone**: `~/workspace/synapse-pkm`
 - **Config**: `.claude/synapse-config.json`
 
-## Framework Files to Include
+## What's Included
 
 ```
 synapse-pkm/
@@ -33,7 +32,9 @@ synapse-pkm/
 │   │   ├── synapse-setup.md
 │   │   ├── synapse-review.md
 │   │   ├── synapse-update.md
-│   │   └── synapse-publish.md
+│   │   ├── synapse-publish.md
+│   │   ├── synapse-changelog.md
+│   │   └── synapse-migrate-notion.md
 │   └── synapse-config.json
 ├── templates/
 │   ├── Daily Note.md
@@ -43,53 +44,54 @@ synapse-pkm/
 │   ├── Person.md
 │   ├── Project Brief.md
 │   └── Quarterly Review.md
+├── scripts/
+│   ├── test-synapse.sh
+│   └── README.md
 ├── areas/.gitkeep
+├── archive/.gitkeep
 ├── daily/.gitkeep
 ├── inbox/.gitkeep
-├── meetings/.gitkeep
+├── journal/meetings/.gitkeep
+├── journal/reflections/.gitkeep
 ├── people/.gitkeep
 ├── projects/.gitkeep
 ├── resources/.gitkeep
-├── CLAUDE.md          # Template version with placeholders
-├── README.md          # Framework documentation + setup instructions
-├── LICENSE
+├── CLAUDE.md          # Template with section markers
+├── README.md          # Framework documentation
+├── CHANGELOG.md       # Version history
+├── LICENSE            # MIT
 └── .gitignore
 ```
 
 ## Implementation Steps
 
-1. [ ] Create `synapse-pkm` repo on GitHub (public)
-2. [ ] Create template versions of CLAUDE.md and README.md
-   - Replace personal references (Julien, Nimble, team members) with placeholders
-   - Add "Getting Started" section explaining `/synapse-setup`
-3. [ ] Copy framework files to new repo
-4. [ ] Add LICENSE (MIT or similar)
-5. [ ] Update `.gitignore` for the framework repo
-6. [ ] Write user-facing README with:
+1. [x] Create `synapse-pkm` repo on GitHub (public)
+2. [x] Create template versions of CLAUDE.md and README.md
+   - Placeholders for user context
+   - Section markers for update separation
+3. [x] Copy framework files to new repo
+4. [x] Add LICENSE (MIT)
+5. [x] Update `.gitignore` for the framework repo
+6. [x] Write user-facing README with:
    - What this framework is
    - How to install (clone + open in Obsidian)
    - How to configure (`/synapse-setup`)
    - Available commands
-   - AI optimization principles (condensed)
-7. [ ] Test fresh clone + setup flow
-8. [ ] Update private vault's `.gitignore` to exclude `_tasks/` if desired
+   - AI optimization principles
+7. [ ] Test fresh clone + setup flow (needs user testing)
 
-## Workflow After Setup
+## Workflow
 
 **Improving the framework (maintainer):**
 1. Make changes in personal vault (Obsidian)
 2. Test the changes
-3. Run `/synapse-publish` to push to framework repo
+3. Run `/synapse-publish` to push to framework repo via PR
 4. Changes are automatically stripped of personal content
 
 **Updating an instance (users):**
 1. Run `/synapse-update` to check for updates
 2. Preview changes
 3. Apply updates (framework sections only, preserves user content)
-
-**Personal vault updates:**
-- Continue as normal, push to private repo
-- Framework files in personal vault may drift from public repo (that's fine)
 
 ## Section Markers
 
@@ -105,15 +107,8 @@ Framework documentation (updated automatically)
 <!-- SYNAPSE:FRAMEWORK:END -->
 ```
 
-This enables `/synapse-update` to update framework docs without touching user's personal context.
+## Decisions Made
 
-## Open Questions
-
-- ~~Should there be a `/pkm-update` command to pull framework updates?~~ ✅ Created `/synapse-update`
-- Should framework repo include example content to demonstrate structure?
-- What license to use? (MIT is simple and permissive)
-
-## Related
-
-- This task was created during conversation about versioning the framework
-- Depends on finalizing which commands and templates are "framework" vs "personal"
+- License: MIT (simple and permissive)
+- Version tags without "v" prefix (e.g., `0.1.0` not `v0.1.0`)
+- Publishing via PRs for safety review
