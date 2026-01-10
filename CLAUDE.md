@@ -87,6 +87,7 @@ When working with this vault:
 3. **Use explicit references**: When linking, include context (e.g., "See [[page]] for the full analysis")
 4. **Maintain self-contained notes**: Each note should be understandable without following links
 5. **Add `summary` to new notes**: One sentence that captures the note's purpose
+6. **Follow Julien's writing style**: When drafting content, refer to [[resources/writing-style-guide]] for voice, tone, and formatting conventions
 
 ## Note Review Standards
 

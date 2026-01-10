@@ -13,25 +13,27 @@ tags:
 
 *Building an Obsidian vault that AI can actually understand*
 
-I'm exploring a new workflow for personal knowledge management after having use Notion exclusively for several years. I'm still using Notion, and I intend to continue doing so, but not for everything. I'm a huge fan of Notion's databases. It is, in my opinion, its superpower.
+I recently stumbled on [Jason Cyr's video on organizing Obsidian notes with AI](https://www.youtube.com/watch?v=1ig8wHXSv0g) and my whole perspective on PKM shifted.
+
+After using Notion for years for personal knowledge management (PKM), I'm exploring a new workflow. I'm still using Notion, and I intend to continue doing so, but not for everything. I'm a huge fan of Notion's databases. It is, in my opinion, its superpower.
 
 However, with the flexibility comes great potential for mess and for forgetting information. In addition, it is difficult to get an overview of my personal knowledge, and to find connections and insights.
 
 This post introduces **Synapse**, the framework I'm developing for this experiment. I'm sharing it publicly because I think others might find it useful, but I want to be upfront: I don't know if this is going to work as well as I hope. It's an experiment.
 
-## The Problem
+## An Investment With Low Return
 
 I have lots of resources saved. Some are relevant to certain projects, some are general knowledge, some are related to ideas and self-reflection. However, connecting the dots, finding patterns, uncovering insights, is practically impossible.
 
 At the same time, I have been embedding AI into my workflows extensively: drafting documents, analyzing content, brainstorming ideas, writing code... And it is crystal clear that the benefits are enormous _when used efficiently._
 
-I have become more and more frustrated with the challenges of working with AI assistants while providing all the relevant context, which includes my personal knowledge resources. Then I stumbled on [Jason Cyr's video on organizing Obsidian notes with AI](https://www.youtube.com/watch?v=1ig8wHXSv0g). Watching him demonstrate how AI could help structure and organize thousands of notes pushed me to try moving to Obsidian.
+I have become more and more frustrated with the challenges of working with AI assistants while providing all the relevant context, which includes my personal knowledge resources. When I stumbled on Jason's video, seeing him demonstrate how AI could help structure and organize thousands of notes pushed me to try moving to Obsidian.
 
 I know that Notion has an MCP that can, to an extent, be used for what I'm describing, but using local `.md` files is infinitely more effective.
 
 I started researching Obsidian best practices to setup my vault and got to work. As I get to setting up my workspace, however, one thing hit me: most of the best practices out there are optimized for humans. My goal was to have an AI-first PKM.
 
-## The Hypothesis
+## The Idea
 
 What if we structured notes specifically for AI consumption? Not in a way that makes them worse for humans, markdown is still markdown, but with deliberate choices about:
 
@@ -59,14 +61,17 @@ Here's my working mental model of what matters for retrieval:
 - **Redundancy is acceptable** - Repeating context across notes helps when notes are retrieved in isolation
 
 I could be wrong about the mechanisms. But the practical outcomes have been noticeably better when I follow these principles.
+
 ## Sources and Influences
 
 I didn't come up with these ideas in a vacuum. Here are the resources that shaped my thinking:
+
 ### Research and Guides
 
 - **Anthropic's documentation on Claude** - Particularly their guidance on prompt engineering and context windows
 - **OpenAI's best practices for embeddings** - Useful even outside their ecosystem
 - **Various RAG (Retrieval-Augmented Generation) guides** - The patterns for preparing documents for retrieval apply directly to personal notes
+
 ### Community Knowledge
 
 - **Obsidian forums and Discord** - Lots of discussion about AI integration, though most focuses on plugins rather than structure
@@ -142,7 +147,7 @@ To get started:
 3. Run `/synapse-setup` to personalize it
 4. Start taking notes
 
-If you try it, I'd love to hear what works and what doesn't. This is very much a v0.x release—feedback will shape where it goes.
+If you try it, I'd love to hear what works and what doesn't. This is very much a v0.x release. Feedback will shape where it goes.
 
 ## What I Don't Know
 
@@ -156,6 +161,4 @@ Plenty:
 
 The honest answer is that I'm building this because it *seems* like the right approach based on my current understanding. That understanding will evolve. The framework will too.
 
----
-
-Synapse is named for the connection point between neurons—and by extension, the connection point between human knowledge and AI. It's also just a word that sounds nice and wasn't taken on GitHub.
+_Synapse is named for the connection point between neurons and, by extension, the connection point between human knowledge and AI. It's also just a word that sounds nice and wasn't taken on GitHub._
