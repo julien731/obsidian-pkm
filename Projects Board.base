@@ -1,0 +1,11 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("projects")
+    order:
+      - file.name
+      - status
+    columnSize:
+      file.name: 459
