@@ -1,18 +1,26 @@
 # Synapse Publish Command
 
-**For framework maintainers only.** Push improvements from your personal instance to the public Synapse framework repository.
+**For framework maintainers only.** Push improvements from your personal instance to the public Synapse framework repository via pull request.
 
 ## What This Command Does
 
 1. Identifies framework files that have changed in your instance
 2. Strips user-specific content (your personal context)
 3. Copies clean framework files to the Synapse repo
-4. Optionally commits and pushes the changes
+4. Creates a pull request for review before merging
+
+## Why PRs Instead of Direct Commits
+
+- **Safety**: Review step catches accidental personal data leaks
+- **Versioning**: Clear history of what changed and when
+- **Rollback**: Easy to revert a specific release if needed
+- **Audit trail**: PR descriptions document the "why" behind changes
 
 ## Prerequisites
 
 - You must have the `synapse-pkm` repo cloned locally at `~/workspace/synapse-pkm`
 - You must have push access to the repository
+- GitHub CLI (`gh`) installed and authenticated
 - Run `./scripts/test-synapse.sh` to validate framework structure
 - Run `/synapse-changelog` first to document what changed (recommended)
 
@@ -100,21 +108,88 @@ Check if CHANGELOG.md has been updated for this release:
 
 For breaking changes, **require** a changelog entry with migration instructions before allowing publish.
 
-### Step 6: Commit and Push (Optional)
+### Step 6: Create Release Branch
 
-Ask: "Commit and push to synapse-pkm?"
+Create a branch for the release:
 
-If yes:
-- Stage all changed files
-- Commit with message: `feat: [description]` or `fix: [description]`
-- Push to configured branch
+```bash
+cd ~/workspace/synapse-pkm
+git checkout main
+git pull origin main
+git checkout -b release/x.x.x
+```
+
+Branch naming: `release/1.2.0` for version 1.2.0
+
+### Step 7: Commit Changes
+
+Stage and commit all changed files:
+
+```bash
+git add -A
+git commit -m "feat: [description of changes]"
+```
+
+### Step 8: Push and Create PR
+
+Push the branch and create a pull request:
+
+```bash
+git push -u origin release/x.x.x
+
+gh pr create \
+  --title "Release x.x.x: [brief description]" \
+  --body "$(cat <<'EOF'
+## Summary
+
+[Description of what's included in this release]
+
+## Changes
+
+- [List of changes from changelog]
+
+## Safety Checklist
+
+- [ ] No personal names or identifiers
+- [ ] No hardcoded paths
+- [ ] No personal note content
+- [ ] All placeholders intact
+- [ ] Tests pass (`./scripts/test-synapse.sh`)
+
+## Version
+
+Bumping from x.x.x → y.y.y
+EOF
+)"
+```
+
+### Step 9: Review PR
+
+The command outputs the PR URL. Before merging:
+
+1. **Review the diff in GitHub** - Check for any personal data
+2. **Verify safety checklist** - All items should be checked
+3. **Check CI status** - Structural tests should pass
+
+### Step 10: Merge and Tag
+
+After PR review and approval:
+
+1. Merge the PR (squash or merge commit)
+2. Create a version tag:
+   ```bash
+   git checkout main
+   git pull origin main
+   git tag x.x.x
+   git push origin x.x.x
+   ```
 
 ## Usage
 
 ```
-/synapse-publish                    # Interactive publish flow
+/synapse-publish                    # Interactive publish flow (creates PR)
 /synapse-publish --dry-run          # Show what would be published, don't execute
-/synapse-publish --no-push          # Copy files but don't commit/push
+/synapse-publish --prepare-only     # Copy files and create branch, don't push/PR
 ```
 
 ## Files Tracked as Framework
@@ -127,6 +202,7 @@ The command knows these are framework files:
 .claude/commands/synapse-update.md
 .claude/commands/synapse-publish.md
 .claude/commands/synapse-changelog.md
+.claude/commands/synapse-migrate-notion.md
 templates/Daily Note.md
 templates/Meeting Note.md
 templates/Hiring Interview.md
@@ -158,13 +234,18 @@ User: /synapse-publish
 Claude: Checking for framework changes...
 
 Found 3 files changed since last publish:
-- .claude/commands/review-notes.md (modified)
+- .claude/commands/synapse-review.md (modified)
 - templates/Meeting Note.md (modified)
 - CLAUDE.md (framework section modified)
 
 Preparing files for publish...
 - Stripping user context from CLAUDE.md
 - Verifying no personal data in commands
+
+Running safety checks...
+✓ No personal names detected
+✓ No hardcoded paths
+✓ Placeholders intact
 
 Ready to publish to ~/workspace/synapse-pkm
 
@@ -180,22 +261,28 @@ User: patch
 
 Claude: Bumping version 1.0.0 → 1.0.1
 
-Commit and push? (y/n)
+Creating release branch and PR...
 
-User: y
-
-Claude:
 ✓ Files copied to synapse-pkm
-✓ Committed: "fix: improve review-notes edge case handling"
-✓ Pushed to origin/main
+✓ Created branch: release/1.0.1
+✓ Committed: "fix: improve review command edge case handling"
+✓ Pushed to origin/release/1.0.1
+✓ Created PR #12: "Release 1.0.1: Review command improvements"
 
-Published Synapse v1.0.1
+PR URL: https://github.com/julien731/synapse-pkm/pull/12
+
+Next steps:
+1. Review the PR diff for any personal data
+2. Check the safety checklist in the PR
+3. Merge when ready
+4. Tag the release: git tag 1.0.1 && git push origin 1.0.1
 ```
 
 ## Notes
 
-- Always review the diff before confirming publish
+- Always review the PR diff before merging
 - The command won't publish your personal notes—only framework files
 - Run `/synapse-changelog` before publishing to document changes for users
 - Breaking changes require a changelog entry with migration instructions
-- Consider testing `/synapse-update` in a fresh clone after publishing
+- The PR provides a final review opportunity before changes go public
+- Consider testing `/synapse-update` in a fresh clone after merging
