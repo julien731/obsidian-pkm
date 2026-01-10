@@ -13,19 +13,27 @@ tags:
 
 *Building an Obsidian vault that AI can actually understand*
 
-I'm moving away from Notion. After years of using it for everything—meeting notes, project planning, personal knowledge management—I'm starting fresh with Obsidian. But this time, I'm trying something different: building my vault from the ground up to work well with AI assistants.
+I'm exploring a new workflow for personal knowledge management after having use Notion exclusively for several years. I'm still using Notion, and I intend to continue doing so, but not for everything. I'm a huge fan of Notion's databases. It is, in my opinion, its superpower.
+
+However, with the flexibility comes great potential for mess and for forgetting information. In addition, it is difficult to get an overview of my personal knowledge, and to find connections and insights.
 
 This post introduces **Synapse**, the framework I'm developing for this experiment. I'm sharing it publicly because I think others might find it useful, but I want to be upfront: I don't know if this is going to work as well as I hope. It's an experiment.
 
 ## The Problem
 
-I've been using AI assistants (Claude, mostly) for various tasks, and I keep running into the same friction: when I ask about my notes, projects, or past decisions, the AI struggles. Not because it's not capable, but because my notes aren't structured in a way that helps it understand context.
+I have lots of resources saved. Some are relevant to certain projects, some are general knowledge, some are related to ideas and self-reflection. However, connecting the dots, finding patterns, uncovering insights, is practically impossible.
 
-Consider a simple question like "What did we discuss about the authentication redesign?" If that information is spread across meeting notes, project docs, and Slack summaries—all with different structures, implicit context, and assumptions—the AI has to work much harder to piece things together. Sometimes it fails entirely.
+At the same time, I have been embedding AI into my workflows extensively: drafting documents, analyzing content, brainstorming ideas, writing code... And it is crystal clear that the benefits are enormous _when used efficiently._
+
+I have become more and more frustrated with the challenges of working with AI assistants while providing all the relevant context, which includes my personal knowledge resources. Then I stumbled on [Jason Cyr's video on organizing Obsidian notes with AI](https://www.youtube.com/watch?v=1ig8wHXSv0g). Watching him demonstrate how AI could help structure and organize thousands of notes pushed me to try moving to Obsidian.
+
+I know that Notion has an MCP that can, to an extent, be used for what I'm describing, but using local `.md` files is infinitely more effective.
+
+I started researching Obsidian best practices to setup my vault and got to work. As I get to setting up my workspace, however, one thing hit me: most of the best practices out there are optimized for humans. My goal was to have an AI-first PKM.
 
 ## The Hypothesis
 
-What if we structured notes specifically for AI consumption? Not in a way that makes them worse for humans—markdown is still markdown—but with deliberate choices about:
+What if we structured notes specifically for AI consumption? Not in a way that makes them worse for humans, markdown is still markdown, but with deliberate choices about:
 
 - What metadata to include
 - How to write opening paragraphs
@@ -51,21 +59,18 @@ Here's my working mental model of what matters for retrieval:
 - **Redundancy is acceptable** - Repeating context across notes helps when notes are retrieved in isolation
 
 I could be wrong about the mechanisms. But the practical outcomes have been noticeably better when I follow these principles.
-
 ## Sources and Influences
 
 I didn't come up with these ideas in a vacuum. Here are the resources that shaped my thinking:
-
 ### Research and Guides
 
 - **Anthropic's documentation on Claude** - Particularly their guidance on prompt engineering and context windows
 - **OpenAI's best practices for embeddings** - Useful even outside their ecosystem
 - **Various RAG (Retrieval-Augmented Generation) guides** - The patterns for preparing documents for retrieval apply directly to personal notes
-
 ### Community Knowledge
 
 - **Obsidian forums and Discord** - Lots of discussion about AI integration, though most focuses on plugins rather than structure
-- **PARA method (Tiago Forte)** - The Projects/Areas/Resources/Archive taxonomy influenced my folder structure
+- **PARA method (Tiago Forte)** - The Projects/Areas/Resources/Archive taxonomy influenced my folder structure (I've been using PARA in my Notion setup for years)
 - **Zettelkasten principles** - Atomic notes, explicit links, and the idea that structure aids thinking
 
 ### Conversations with Claude
@@ -117,7 +122,7 @@ vault/
 
 Here's what I'm testing:
 
-1. **Can I actually maintain this?** - Structured notes require discipline. Will I stick with it, or will entropy win?
+1. **Can I actually maintain this?** - Structured notes require discipline. Will I stick with it, or will entropy win? This is where the `/synapse-review` Claude command comes to help.
 
 2. **Does it improve AI interactions?** - When I ask Claude about my notes, projects, or past decisions, are the answers noticeably better?
 
@@ -126,17 +131,6 @@ Here's what I'm testing:
 4. **What breaks?** - Which principles turn out to be unnecessary? Which are missing?
 
 I'll be updating this post (or writing follow-ups) as I learn more.
-
-## Why Leave Notion?
-
-A few reasons:
-
-- **Local files** - I want my notes in markdown files I control, not a proprietary database
-- **Git versioning** - Every change tracked, easy backup, no vendor lock-in
-- **AI flexibility** - I can point Claude Code at my vault and work with it directly
-- **Performance** - Notion gets slow with large databases; local files don't
-
-I'll miss Notion's databases and the ease of sharing. But for a personal knowledge system that I want to integrate deeply with AI tooling, local markdown feels like the right foundation.
 
 ## Try It Yourself
 
@@ -164,6 +158,4 @@ The honest answer is that I'm building this because it *seems* like the right ap
 
 ---
 
-*Synapse is named for the connection point between neurons—and by extension, the connection point between human knowledge and AI. It's also just a word that sounds nice and wasn't taken on GitHub.*
-
-*If you found this useful, I write about product management, AI tools, and building software at [your-blog-url]. Follow along for updates on this experiment.*
+Synapse is named for the connection point between neurons—and by extension, the connection point between human knowledge and AI. It's also just a word that sounds nice and wasn't taken on GitHub.
