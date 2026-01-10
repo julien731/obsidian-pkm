@@ -19,10 +19,5 @@
 # Test fixtures
 .test-fixtures/
 
-# Migration scripts (user-specific)
-scripts/migrate-notion.sh
-scripts/fix-notion-tags.py
-scripts/add-reflection-summaries.py
-
 # Claude local settings
 .claude/settings.local.json
