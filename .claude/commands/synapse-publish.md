@@ -13,6 +13,7 @@
 
 - You must have the `synapse-pkm` repo cloned locally at `~/workspace/synapse-pkm`
 - You must have push access to the repository
+- Run `./scripts/test-synapse.sh` to validate framework structure
 - Run `/synapse-changelog` first to document what changed (recommended)
 
 ## Configuration

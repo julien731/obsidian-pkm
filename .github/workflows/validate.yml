@@ -1,0 +1,32 @@
+name: Validate Framework
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.claude/commands/**'
+      - 'templates/**'
+      - 'CLAUDE.md'
+      - 'README.md'
+      - '.claude/synapse-config.json'
+      - 'scripts/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.claude/commands/**'
+      - 'templates/**'
+      - 'CLAUDE.md'
+      - 'README.md'
+      - '.claude/synapse-config.json'
+      - 'scripts/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run structural validation
+        run: ./scripts/test-synapse.sh --structural
