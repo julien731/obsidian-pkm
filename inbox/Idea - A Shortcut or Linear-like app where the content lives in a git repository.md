@@ -1,0 +1,2 @@
+- Full context for LLM: codebase, docs, stories
+- Still an interface for PMs to work from that's more pleasant

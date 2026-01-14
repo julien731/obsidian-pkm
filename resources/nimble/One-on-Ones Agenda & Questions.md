@@ -35,10 +35,6 @@ In any case, if the meeting is going to take more than one hour then a separate 
 - Issues/Concerns (30 mins)
 - Feedback (10 mins)
 
-# Questions
-
-[[Untitled]]
-
 # Resources
 
 - [https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/](https://jasonevanish.com/2014/05/29/101-questions-to-ask-in-1-on-1s/)
