@@ -1,2 +1,12 @@
 - Full context for LLM: codebase, docs, stories
 - Still an interface for PMs to work from that's more pleasant
+- North star: Linear
+- What users can do:
+	- Create modules
+	- Create Features (a feature belongs to a module)
+	- Create user stories (a story belongs to a feature)
+	- Assign stories to people
+	- View in Kanban view
+		- Filter by module and feature
+	- Move stories and features across states
+- We could use Markdown with Frontmatter for managing relationships, status, metadata
