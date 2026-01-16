@@ -12,6 +12,10 @@ tags:
 
 A product concept for a project management tool inspired by Linear, but with content stored in a git repository. This would give LLMs full context (codebase, docs, stories) while providing PMs with a pleasant interface for managing work.
 
+# Conclusion
+
+Not worth it. It's gonna be very difficult to manage with Gitflow and the PR review process. The gains would be marginal and the overhead would be high.
+
 ## Core Concept
 
 - Full context for LLM: codebase, docs, stories
