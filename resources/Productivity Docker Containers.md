@@ -1,6 +1,6 @@
 ---
 type: resource
-status: inbox
+status: active
 created: 2026-01-25
 source: https://www.xda-developers.com/these-productivity-docker-containers-are-more-powerful-than-initially-estimated/
 tags:

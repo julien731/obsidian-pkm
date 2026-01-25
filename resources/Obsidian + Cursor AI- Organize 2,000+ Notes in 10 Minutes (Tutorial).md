@@ -1,7 +1,7 @@
 ---
 type: video
-status: inbox
-summary: "This tutorial demonstrates how to leverage Cursor AI to efficiently organize a large number of notes (over 2,000) within Obsidian, providing a valuable method for streamlining personal knowledge management."
+status: active
+summary: This tutorial demonstrates how to leverage Cursor AI to efficiently organize a large number of notes (over 2,000) within Obsidian, providing a valuable method for streamlining personal knowledge management.
 tags:
   - obsidian
   - cursor ai
@@ -9,9 +9,9 @@ tags:
   - pkm
   - tutorial
 url: https://www.youtube.com/watch?v=1ig8wHXSv0g
-author: "Jason Cyr"
-channel: "Jason Cyr"
-publish_date: 
+author: Jason Cyr
+channel: Jason Cyr
+publish_date:
 site: YouTube
 created: YYYY-01-Jan 10, 2026
 ---
