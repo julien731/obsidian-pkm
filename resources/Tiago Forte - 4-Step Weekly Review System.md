@@ -1,6 +1,6 @@
 ---
 type: resource
-status: inbox
+status: active
 created: 2026-01-26
 source: https://youtu.be/zjKUX7sHEGI
 tags:
@@ -9,6 +9,9 @@ tags:
   - tiago-forte
   - gtd
 summary: Tiago Forte's 4-step weekly review system for going from chaos to clarity.
+related:
+  - "[[projects/Go on a Solo Retreat]]"
+  - "[[projects/Write a Personal Mission Statement]]"
 ---
 
 # From Chaos to Clarity: My 4-Step Weekly Review System
@@ -35,7 +38,5 @@ A weekly review is a cornerstone habit of productivity systems like GTD (Getting
 - Reduce cognitive load from unprocessed tasks
 - Gain clarity on priorities
 - Start each week with intention rather than reaction
-
----
 
 *Source: [YouTube](https://youtu.be/zjKUX7sHEGI)*
