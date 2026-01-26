@@ -10,6 +10,7 @@ Obsidian/
 ├── inbox/          # Unprocessed items (n8n automations, quick captures)
 ├── meetings/       # All meeting notes (client, sales, hiring, internal)
 ├── projects/       # Active project briefs and planning
+├── ideas/          # Ideas at various stages of development
 ├── areas/          # Ongoing areas of responsibility
 ├── resources/      # Reference material, research, learning notes
 ├── people/         # Contact notes (clients, candidates, partners)
@@ -23,7 +24,7 @@ All notes use YAML frontmatter with these fields:
 
 | Field | Required | Values | Purpose |
 |-------|----------|--------|---------|
-| `type` | Yes | `daily`, `meeting`, `project`, `resource`, `area`, `person` | Note classification |
+| `type` | Yes | `daily`, `meeting`, `project`, `idea`, `resource`, `area`, `person` | Note classification |
 | `status` | For actionable | `active`, `completed`, `archived`, `on-hold` | Current state |
 | `tags` | No | Array of strings | Topics and themes |
 | `date` | For dated notes | YYYY-MM-DD | Event/meeting date |
@@ -63,6 +64,14 @@ All notes use YAML frontmatter with these fields:
 | `role` | Their role |
 | `context` | How you know them (`client`, `candidate`, `partner`, `colleague`) |
 
+### Idea-specific fields
+
+| Field | Values |
+|-------|--------|
+| `status` | `new`, `developing`, `decided` |
+| `category` | `product`, `workflow`, `content`, `personal` |
+| `outcome` | `null` (undecided), `[[projects/...]]` (became a project), `discarded` |
+
 ## Templates
 
 | Template | Use case |
@@ -71,6 +80,7 @@ All notes use YAML frontmatter with these fields:
 | Meeting Note | Client, sales, internal meetings |
 | Hiring Interview | Candidate evaluations |
 | Project Brief | Project planning and scope |
+| Idea | Ideas to develop and evaluate |
 | Person | Contact reference notes |
 | Quarterly Review | Periodic reflection and planning |
 
@@ -79,6 +89,7 @@ All notes use YAML frontmatter with these fields:
 - **Daily notes**: `YYYY-MM-DD.md`
 - **Meetings**: `YYYY-MM-DD Meeting Name.md`
 - **Projects**: `Project Name.md`
+- **Ideas**: `Idea Name.md` (descriptive title)
 - **People**: `First Last.md`
 - **Resources**: Descriptive title, no date prefix
 
@@ -159,6 +170,39 @@ Use consistent heading hierarchy (H1 → H2 → H3). Header text provides semant
 | Ambiguous pronouns | Referent unclear in isolation |
 | Links without context | AI may not follow links |
 
+### Ideas Workflow
+
+Ideas are generative notes that need space to incubate before becoming projects or being discarded. Unlike resources (reference material you consume), ideas are things you develop over time.
+
+**Lifecycle:**
+
+```
+new → developing → decided
+```
+
+| Status | Meaning |
+|--------|---------|
+| `new` | Just captured, hasn't been reviewed yet |
+| `developing` | Actively thinking about it, adding connections |
+| `decided` | Fate determined (became a project or discarded) |
+
+**Categories:**
+
+- `product` - Product concepts, feature ideas
+- `workflow` - Process improvements, internal tools
+- `content` - Writing topics, presentations, talks
+- `personal` - Side projects, personal ventures
+
+**Weekly Review:**
+
+1. Filter ideas by `status: new` or `status: developing`
+2. For each idea: add thoughts, connections, or decide its fate
+3. When decided: set `status: decided` and fill `outcome`:
+   - Link to the project it became: `outcome: "[[projects/Project Name]]"`
+   - Or mark as `outcome: discarded`
+
+**Retention:** All ideas (including discarded ones) are kept for reference. Past ideas often become relevant again or inform future thinking.
+
 ### Synapse Commands
 
 Synapse commands are available in `.claude/commands/`. Use these to manage your vault.
@@ -205,6 +249,25 @@ Cleans up manually-created notes to comply with AI-first organization standards.
 - Summary requires interpretation
 - Related notes are uncertain
 - Personal vs. work classification is unclear
+
+#### `/synapse-review-ideas` - Weekly Idea Review
+
+Review ideas to develop them, promote them to projects, or discard them.
+
+**What it does:**
+- Surfaces all ideas with `status: new` or `status: developing`
+- For each idea, asks what to do: keep developing, promote to project, discard, or skip
+- When promoting, creates a new project and links it to the original idea
+- Tracks outcomes so you can see what happened to past ideas
+
+**Usage:**
+```
+/synapse-review-ideas            # Review all active ideas
+/synapse-review-ideas product    # Review only product ideas
+/synapse-review-ideas --new      # Review only new ideas
+```
+
+**Recommended cadence:** Weekly, as part of your regular review
 
 #### `/synapse-update` - Update Framework
 

@@ -35,6 +35,7 @@ Obsidian/
 ├── inbox/          # Unprocessed items (n8n automations, quick captures)
 ├── meetings/       # All meeting notes (client, sales, hiring, internal)
 ├── projects/       # Active project briefs and planning
+├── ideas/          # Ideas at various stages of development
 ├── areas/          # Ongoing areas of responsibility
 ├── resources/      # Reference material, research, learning notes
 ├── people/         # Contact notes (clients, candidates, partners, colleagues)
@@ -48,7 +49,7 @@ All notes use YAML frontmatter. Key fields:
 
 | Field | Purpose |
 |-------|---------|
-| `type` | Note classification: `daily`, `meeting`, `project`, `resource`, `area`, `person` |
+| `type` | Note classification: `daily`, `meeting`, `project`, `idea`, `resource`, `area`, `person` |
 | `status` | Current state: `active`, `completed`, `archived`, `on-hold` |
 | `summary` | One-sentence description for AI retrieval (read this first) |
 | `tags` | Topics and themes as array |
@@ -112,6 +113,7 @@ When reviewing manually-created notes (via `/review-notes` command), check and f
 | `person` | `company`, `role`, `context` |
 | `project` | `client` (if applicable), `phase` |
 | `hiring` | `candidate`, `role`, `stage` |
+| `idea` | `category`, `outcome` (when decided) |
 
 ### Content Standards
 
