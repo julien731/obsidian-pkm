@@ -8,5 +8,7 @@ migrated_at: 2026-01-10
 
 # Use Home Assistant notifications? You should be using these tricks
 
+Advanced notifications (including action notifications) for Home Assistant.
+
 
 https://share.google/artaSGTxfkML8uF9o

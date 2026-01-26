@@ -2,6 +2,7 @@
 
 This file provides context for AI assistants (primarily Claude) working with this Obsidian vault.
 
+<!-- SYNAPSE:USER-CONTEXT:START -->
 ## Vault Owner
 
 **Julien** - Chief Product Officer (CPO) at Nimble, a software consultancy based in Bangkok, Thailand. This vault contains both professional and personal knowledge management: work notes, personal projects, research, learning, and life management.
@@ -27,6 +28,15 @@ This vault also contains personal notes unrelated to Nimble. These may include:
 
 When working with personal notes, the same structural conventions apply, but work-specific context (Nimble, clients, team members) may not be relevant.
 
+## Key Current Initiatives (2026)
+
+- **AI adoption**: Standardizing AI workflows across product and design teams
+- **Quality standards**: Restoring quality as core differentiator after 2025 compromises
+- **Client relationships**: Building ties with decision-makers, not just execution-level contacts
+- See [[areas/2026 Team Goals]] and [[areas/2026 Team Goals Analysis]] for details
+<!-- SYNAPSE:USER-CONTEXT:END -->
+
+<!-- SYNAPSE:FRAMEWORK:START -->
 ## Vault Structure
 
 ```
@@ -71,13 +81,6 @@ All notes use YAML frontmatter. Key fields:
 - Notes are self-contained: the first paragraph after frontmatter provides full context
 - People are linked as `[[people/Name]]` - follow these for role and relationship info
 - Projects reference clients in frontmatter
-
-### Key Current Initiatives (2026)
-
-- **AI adoption**: Standardizing AI workflows across product and design teams
-- **Quality standards**: Restoring quality as core differentiator after 2025 compromises
-- **Client relationships**: Building ties with decision-makers, not just execution-level contacts
-- See [[areas/2026 Team Goals]] and [[areas/2026 Team Goals Analysis]] for details
 
 ## Conventions for AI Interactions
 
@@ -131,3 +134,4 @@ Request clarification when:
 - **Related notes are uncertain**: Potential links exist but relevance is unclear
 - **Missing critical context**: Names, dates, or relationships that can't be inferred
 - **Personal vs. work classification**: Unclear if note relates to Nimble or personal life
+<!-- SYNAPSE:FRAMEWORK:END -->

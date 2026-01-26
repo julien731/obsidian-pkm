@@ -2,6 +2,7 @@
 
 Personal knowledge management vault for Julien (CPO at Nimble).
 
+<!-- SYNAPSE:FRAMEWORK:START -->
 ## Folder Structure
 
 ```
@@ -377,3 +378,4 @@ Where should "Projects/" content go?
 - Existing files are skipped (no overwrites)
 
 See [CLAUDE.md](CLAUDE.md) for full review standards.
+<!-- SYNAPSE:FRAMEWORK:END -->
