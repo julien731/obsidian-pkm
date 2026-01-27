@@ -44,7 +44,3 @@
 - Consider sending materials for legal analysis of binding language
 - Contact information available for legal consultation if situation escalates
 - Hope to resolve through internal processes rather than legal action
-
----
-
-Chat with meeting transcript: [https://notes.granola.ai/t/d2dfa633-45b5-43d4-8e22-0b3265e2290b](https://notes.granola.ai/t/d2dfa633-45b5-43d4-8e22-0b3265e2290b)
