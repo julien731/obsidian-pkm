@@ -1,3 +1,14 @@
+---
+type: resource
+created: 2025-01-28
+summary: Configuration guide for reducing Clawdbot's token consumption through automatic pruning, caching, and session management.
+tags:
+  - clawdbot
+  - llm
+  - token-optimization
+  - configuration
+---
+
 ## Why Clawdbot Burns Through Tokens
 
 The main culprits:

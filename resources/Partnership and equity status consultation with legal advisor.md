@@ -1,3 +1,21 @@
+---
+type: meeting
+created: 2025-01-28
+date: 2025-01-28
+meeting_type: consultation
+attendees:
+  - Julien
+  - legal advisor
+summary: Legal consultation on formalizing verbal 6% equity agreement at Nimble after 3 years without written documentation.
+tags:
+  - nimble
+  - equity
+  - legal
+  - partnership
+---
+
+Notes from a consultation with a legal advisor regarding Julien's partnership and equity status at Nimble. The discussion covered the current informal 6% share agreement with the CEO and strategies to formalize the arrangement.
+
 ### Current Employment Status
 
 - Chief Product Officer at Nimble (10 years total)
