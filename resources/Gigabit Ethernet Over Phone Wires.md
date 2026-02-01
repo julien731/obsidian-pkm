@@ -1,7 +1,18 @@
+---
+type: resource
+created: 2026-01-28
+tags:
+  - networking
+  - home-improvement
+  - hardware
+---
+
 # Gigabit Ethernet Over Phone Wires
 
 **Source:** https://thehftguy.com/2026/01/22/doing-gigabit-ethernet-over-my-british-phone-wires/
 **Added:** 2026-01-28
+
+Related: [[projects/Setup a home lab]]
 
 ## Summary
 
@@ -20,7 +31,3 @@ The HFT Guy figured out how to run gigabit ethernet over existing phone wires us
 - Product: https://www.gigacopper.net/wp/en/home-networking/
 - Amazon DE: https://www.amazon.de/dp/B095N9G8RG
 - eBay DE: https://www.ebay.de/itm/384796529745
-
-## Tags
-
-#networking #home-improvement #hardware
