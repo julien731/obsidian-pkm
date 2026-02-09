@@ -1,0 +1,1 @@
+Let's do something different and highlight the contributions and the challenges of the non-delivery teams: TA, People Ops, Admin, Finance.
