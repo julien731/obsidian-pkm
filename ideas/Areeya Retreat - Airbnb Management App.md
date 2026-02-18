@@ -21,8 +21,15 @@ tags:
 - **Current platform**: Airbnb only, goal to grow off-platform/direct bookings
 - **Core pain**: No reliable tracking of bookings, revenue, expenses, or occupancy
 
-## Stack Idea
-- Build with **Replit** for fast prototyping and hosting
+## Stack
+
+- **Framework**: SvelteKit (full-stack, lightweight, reactive UI for calendar/dashboard)
+- **Database + Auth + Storage**: Supabase free tier (Postgres 500MB, Auth, 1GB file storage for receipts)
+- **Hosting**: Vercel free tier (no cold starts, serverless functions)
+- **iCal sync**: Vercel Cron Jobs (free, daily sync from Airbnb iCal feed)
+- **Payout reminders**: Supabase Edge Functions + Resend (free tier: 100 emails/day)
+- **Charts**: Chart.js or Frappe Charts
+- **Estimated ongoing cost**: $0
 
 ## Features
 
