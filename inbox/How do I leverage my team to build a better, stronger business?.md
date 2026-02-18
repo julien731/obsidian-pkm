@@ -1,0 +1,1 @@
+All my team members are busy doing IC work only. It's hard to push the team and the business forward in this way. How do I leverage my team better?
