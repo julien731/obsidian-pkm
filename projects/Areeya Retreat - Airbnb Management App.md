@@ -1,14 +1,15 @@
 ---
-type: idea
+type: project
 status: active
 created: 2026-02-18
-category: side-project
-summary: Small app to manage Areeya Retreat property, connecting to the Airbnb API
+phase: v1-launch
+summary: SvelteKit app to manage Areeya Retreat property — booking tracking, revenue/expense management, and financial dashboard
 tags:
   - airbnb
   - property-management
   - side-project
-  - replit
+  - sveltekit
+  - supabase
 ---
 
 # Areeya Retreat — Airbnb Management App
