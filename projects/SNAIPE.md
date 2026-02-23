@@ -12,7 +12,6 @@ related:
   - "[[inbox/SNAIPE - Spec-driven Nimble AI Product Engine]]"
   - "[[inbox/GSD Feedback]]"
 ---
-
 SNAIPE (Spec-driven Nimble AI Product Engine) is a framework for structured AI-assisted development, inspired by [GSD](https://github.com/glittercowboy/get-shit-done). It encodes Nimble's existing product rigor (user stories, acceptance criteria, SA docs) into an AI workflow that works across LLMs and tools.
 
 ## Problem
