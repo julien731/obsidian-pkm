@@ -1,0 +1,6 @@
+{
+  "show-checkboxes": true,
+  "new-note-template": "templates/Project Brief.md",
+  "new-note-folder": "projects",
+  "date-picker-week-start": 1
+}
