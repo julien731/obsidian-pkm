@@ -14,7 +14,7 @@ kanban-plugin: board
 
 ## In Progress
 
-- [ ] [[SNAIPE]]
+- [ ] [[Argus]]
 
 
 ## Done
