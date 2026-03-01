@@ -1,3 +1,17 @@
+---
+type: resource
+created: 2026-03-01
+tags:
+  - ai
+  - framework
+  - developer-tools
+  - nimble
+  - brainstorm
+related:
+  - "[[projects/Argus]]"
+source: inbox
+---
+
 ## Brainstorm Notes
 
 ### What is this?

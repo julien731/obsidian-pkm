@@ -15,6 +15,7 @@ kanban-plugin: board
 ## In Progress
 
 - [ ] [[Argus]]
+- [ ] [[Areeya Retreat - Airbnb Management App]]
 
 
 ## Done
