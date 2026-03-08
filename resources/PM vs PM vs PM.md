@@ -6,6 +6,9 @@ tags:
   - product-management
   - career
   - roles
+related:
+  - "[[projects/Product Manager Track]]"
+  - "[[resources/Must-know PM concepts by Product Manager level]]"
 ---
 
 Comparison of the three "PM" roles (Product Manager, Project Manager, Program Manager) from a LinkedIn post by Alex Rechevskiy. The infographic breaks down each role's definition, when to use it, key responsibilities, success metrics, required skills, pros/cons, and a "power move" tip.
