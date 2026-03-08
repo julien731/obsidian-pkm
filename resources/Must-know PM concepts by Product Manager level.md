@@ -6,6 +6,11 @@ tags:
   - product-management
   - career-growth
   - pm-skills
+related:
+  - "[[projects/Product Manager Track]]"
+  - "[[projects/Create a course to become a Technical Product Mana]]"
+  - "[[projects/Product Manager Charm School]]"
+  - "[[resources/PM vs PM vs PM]]"
 ---
 
 A visual guide outlining the key PM concepts to master at each career level — from user stories and stakeholder communication at the Junior level, to PRDs and cross-functional alignment at Mid-level, to portfolio prioritization and strategic vision at the Senior level. Sourced from a LinkedIn post by Rohan Khanduja.
