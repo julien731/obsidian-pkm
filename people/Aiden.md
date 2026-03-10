@@ -10,6 +10,8 @@ tags:
   - product
   - team
 summary: Product Manager at Nimble, also known as Kieu.
+related:
+  - "[[resources/nimble/performance-reviews/2025/Aiden]]"
 ---
 
 Aiden (also known as Kieu) is a Product Manager at Nimble, a software consultancy.

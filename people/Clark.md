@@ -8,6 +8,8 @@ tags:
   - product
   - team
 summary: Junior Product Manager at Nimble, based in Bangkok.
+related:
+  - "[[resources/nimble/performance-reviews/2025/Clark]]"
 ---
 
 Clark is a Junior Product Manager at Nimble, a software consultancy. He is based in Bangkok and reports to Julien (CPO).

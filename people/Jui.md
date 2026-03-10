@@ -8,6 +8,8 @@ tags:
   - product
   - team
 summary: Junior Product Manager at Nimble, based in Bangkok.
+related:
+  - "[[resources/nimble/performance-reviews/2025/Jui]]"
 ---
 
 Jui is a Junior Product Manager at Nimble, a software consultancy. She is based in Bangkok and reports to Julien (CPO).

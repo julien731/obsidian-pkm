@@ -9,6 +9,7 @@ summary: Head of Product at Nimble, overseeing product strategy, PM team develop
 related:
   - "[[areas/2026 Goals - Vu Head of Product]]"
   - "[[areas/2026 Team Goals Analysis]]"
+  - "[[resources/nimble/performance-reviews/2025/Vu]]"
 ---
 
 Vu is the Head of Product at Nimble, a software consultancy. He oversees product strategy, PM team development, and cross-functional collaboration between PMs and designers. He reports to Julien (CPO) and works alongside [[people/Andrew]] (Lead Designer). [[people/Julien V]] (Principal PM) reports to him.

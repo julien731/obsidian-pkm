@@ -8,6 +8,8 @@ tags:
   - product
   - team
 summary: Senior Product Manager at Nimble, based in Bangkok.
+related:
+  - "[[resources/nimble/performance-reviews/2025/Got]]"
 ---
 
 Got is a Senior Product Manager at Nimble, a software consultancy. He is based in Bangkok and reports to Julien (CPO). His goal is to become a Principal Product Manager.
