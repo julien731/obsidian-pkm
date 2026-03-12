@@ -28,3 +28,5 @@ Blinko is an open-source, self-hosted note-taking app built around quick card-st
 - AI search built-in without third-party data sharing
 - Polished UI based on community feedback
 - Could complement or replace part of current PKM setup
+## Conclusion
+I've tested it. It's a bit weird. I don't find it usable.
