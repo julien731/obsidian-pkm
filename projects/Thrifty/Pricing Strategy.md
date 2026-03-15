@@ -169,34 +169,93 @@ ProfitWell data across 3,000+ SaaS:
 - Unit economics: 1 free month costs ~$7-8 and acquires high-intent user
 - Implement at launch - referral from existing user is highest-LTV channel
 
+## The Comeback Plan: Mission-Aligned Reduced Pricing
+
+### Concept
+
+Users with negative net worth pay a symbolic $1/month instead of full price. This is aligned with Thrifty's mission ("help people create wealth") and creates a powerful acquisition, retention, and marketing loop.
+
+### Why It Works
+
+- **Self-correcting verification:** Net worth is calculated from the user's own data in the app. To "fake" negative net worth, a user would have to omit accounts — which makes the product useless to them. The incentive to be honest is built into the product itself.
+- **Natural conversion funnel:** Someone who goes from -$5K to +$2K using Thrifty has experienced a life change. They will pay $79/year without blinking, never churn, and tell everyone.
+- **Genuine competitive moat:** YNAB and Monarch can't easily copy this without cannibalizing existing revenue. Thrifty can because there's no existing revenue to protect.
+- **Marketing that writes itself:** "Thrifty costs $1/month until you're back on your feet" is a headline personal finance YouTubers would cover unprompted.
+
+### Guardrails
+
+| Control | Mechanism |
+|---|---|
+| Quality filter | $1/month payment (not free — skin in the game, 3-5x more engagement than free users) |
+| Sustainability | Limited seats: 50 new Comeback Plan users per month, maintain max 30% ratio of reduced vs paid |
+| Conversion timeline | 12-month cap — after 12 months, transitions to standard pricing regardless of net worth |
+| Verification | Self-reported via app usage — net worth calculated from linked accounts and manually entered data |
+
+### Graduation Path
+
+When net worth crosses $0:
+1. **Immediate:** Celebration moment in-app (this is a huge milestone — treat it like one)
+2. **Days 1-90 after crossing $0:** Stay at $1/month (no bill shock on a positive day)
+3. **Day 91:** Transition to standard pricing with a personal message and an offer to share their story
+4. **Alternative:** If 12-month cap is reached while still negative, transition to standard pricing with a message acknowledging the journey
+
+### Community Support Model
+
+All users (paid and Comeback Plan) share the same community. No tiered support that makes free users feel lesser.
+
+- **Technical issues / bugs:** Handled directly for all users (product quality)
+- **Budgeting questions / methodology help:** Community-driven (Discord) for all users
+- **Community channels:** `#getting-to-zero` for negative net worth users supporting each other, `#just-turned-positive` for celebration + advice
+- **Graduated users become mentors** to current Comeback Plan users — reinforces their identity and creates social proof
+
+### Naming
+
+"Comeback Plan" — empowering, not patronizing. Alternatives: "Fresh Start." Avoid anything that signals charity or hardship.
+
 ## Recommended Price Structure (Launch)
 
-| Plan | Price | Notes |
-|------|-------|-------|
-| Monthly | $9.99/month | Available but not default |
-| Annual | $79/year ($6.58/mo) | Default, highlighted on pricing page |
-| Founding Member | $59/year | First 500 users only, grandfathered indefinitely |
+| Plan | Price | Who | Limit |
+|------|-------|-----|-------|
+| Comeback Plan | $1/month | Self-reported negative net worth | 50 new users/month, 12-month cap |
+| Standard (annual) | $79/year ($6.58/mo) | Default for all users | Highlighted on pricing page |
+| Standard (monthly) | $9.99/month | All users | Available but not promoted |
+| Founding Member | $59/year | Early adopters | First 500, grandfathered indefinitely |
 
 ### Trial Design
 - **Length:** 34 days (one full budget cycle)
 - **Credit card:** Not required
 - **Activation goal:** User completes first full budget allocation
+- **Comeback Plan eligibility:** Assessed at end of trial based on net worth data entered during trial
 
 ### Launch Sequence
 1. **Pre-launch waitlist** (3-6 months before): Build email list, offer founding member pricing
 2. **Founding member cohort** (first 500): $59/year, grandfathered, treated as design partners
-3. **Public launch**: $79/year standard, 34-day trial, no CC
+3. **Public launch**: $79/year standard + Comeback Plan at $1/month, 34-day trial, no CC
 4. **Month 6 review**: If retention >70% at month 3 and NPS >40, raise to $89/year (new subs only)
 5. **Year 2**: Evaluate $99/year once feature depth justifies it
 
 ### Revenue Projections
 
-At 1,000 subscribers (65% annual / 35% monthly):
-- 650 annual @ $79 = $51,350
-- 350 monthly @ $9.99 (avg 8 months retention) = $27,972
-- **Year 1 ARR at 1,000 subs: ~$79,000**
+**Conservative scenario** (30% of users on Comeback Plan):
 
-At 5,000 subscribers (Year 2): **ARR: ~$395,000**
+At 1,000 subscribers (300 Comeback, 700 standard):
+- 455 standard annual @ $79 = $35,945
+- 245 standard monthly @ $9.99 (avg 8 months) = $19,580
+- 300 Comeback @ $1/month (avg 10 months) = $3,000
+- **Year 1 revenue: ~$58,500**
+- Comeback graduation rate (estimated 40-50% convert to paid within 12 months) adds ~$10K-$15K in year 2
+
+**Base scenario** (20% on Comeback Plan):
+
+At 1,000 subscribers (200 Comeback, 800 standard):
+- 520 standard annual @ $79 = $41,080
+- 280 standard monthly @ $9.99 (avg 8 months) = $22,378
+- 200 Comeback @ $1/month (avg 10 months) = $2,000
+- **Year 1 revenue: ~$65,500**
+
+At 5,000 subscribers (Year 2, 15% Comeback): **ARR: ~$340,000**
+
+Note: These projections don't account for the marketing value of the Comeback Plan — organic press, social sharing of success stories, and community-driven referrals could significantly accelerate user acquisition beyond what a standard pricing model would achieve.
 
 ## Sources
 
