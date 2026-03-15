@@ -71,20 +71,44 @@ The runner needs credentials for four systems:
 
 | System | Auth Method | Secret Type | Rotation |
 |--------|------------|-------------|----------|
-| **PM Tool** (GitHub Projects) | Personal Access Token or GitHub App | `GITHUB_TOKEN` | 90 days (PAT) or auto (App) |
-| **GitHub** (branches, PRs) | Same as above if GitHub Projects | Same | Same |
+| **GitHub** (branches, PRs, code) | GitHub App installation | Auto-rotating installation token | Auto (1-hour expiry) |
+| **PM Tool** (Shortcut, Linear, etc.) | Per-user API tokens | User-specific secrets | Varies by tool |
 | **LLM API** (Claude) | API key | `ANTHROPIC_API_KEY` | On demand |
 | **MCP Servers** | Varies per server | Server-specific | Varies |
 
-**Recommended approach:** Use a GitHub App installation for GitHub access. A GitHub App provides:
+#### Identity Model: Bot for Code, User for PM Actions
+
+The runner operates with a **split identity model**:
+
+- **Code operations** (commits, branches, PRs): Attributed to the **Argus Bot** via a GitHub App. This clearly distinguishes AI-generated code from human work in git history. Human reviewers act under their own name when reviewing/approving PRs.
+- **PM tool operations** (story status changes, comments, assignments): Attributed to the **individual user** who owns the story. This preserves accurate audit trails in the PM tool — the team sees "Sarah moved US-042 to In Progress" rather than "argus-bot moved US-042 to In Progress."
+
+This split is necessary because PM tools like Shortcut use per-user API tokens. Actions performed with a user's token are attributed to that user. There is no "bot account" concept in Shortcut — you'd need a paid seat for a service account.
+
+#### Per-User Token Vault
+
+Since PM tool actions must be attributed to individual users, the runner needs a **token vault** where team members register their PM tool credentials:
+
+- Each team member provides their PM tool API token to the runner (one-time setup)
+- When the orchestrator acts on a story, it uses the token of the story's assignee (or the person who moved it to "Ready")
+- Tokens are stored encrypted at rest on the runner
+- If a user's token is missing or expired, the orchestrator skips their stories and notifies them
+
+**v1 implementation:** Encrypted file on disk (e.g., `~/.argus/tokens.enc` with a master key from environment variable). Team members register via `argus register-token --tool shortcut --token <token>`.
+
+**v2 implementation:** Integration with a secrets manager (AWS Secrets Manager, HashiCorp Vault, 1Password CLI) for teams with stricter security requirements.
+
+#### GitHub App for Code Operations
+
+A GitHub App provides:
 - Fine-grained permissions (only the repos and scopes needed)
 - Auto-rotating installation tokens (1-hour expiry, auto-refreshed)
 - Clear audit trail (actions attributed to the App, not a person)
 - No seat consumption (the App is not a user)
 
-For other secrets, environment variables on the VM are sufficient for v1. For teams with stricter requirements, integrate with a secrets manager (AWS Secrets Manager, HashiCorp Vault, 1Password CLI).
+#### MCP Server Authentication
 
-**MCP server authentication** depends on the specific servers. Playwright MCP needs no external auth. If the team adds MCP servers for external services (Slack, databases), each server's auth must be configured in the runner's environment.
+Depends on the specific servers. Playwright MCP needs no external auth. If the team adds MCP servers for external services (Slack, databases), each server's auth must be configured in the runner's environment.
 
 ### 1.5 Failure and Recovery
 
