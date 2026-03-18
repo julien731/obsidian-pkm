@@ -83,3 +83,7 @@ We could improve communication to ensure clearer requirements.. sometimes i didn
 ### From Doan Le Thieu
 
 Nothing major comes to mind. Of course, no one is perfect, but from my perspective as a developer, working with Jack makes things smoother and helps the team move faster.
+## From Julien (me)
+
+- You need to be more pragmatic on defining MVPs
+- You need to be more attentive to things that have been tested and confirmed (i.e., the technical details in Okya user stories which should not have been there)
