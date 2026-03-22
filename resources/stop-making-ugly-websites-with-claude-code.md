@@ -9,6 +9,9 @@ tags:
   - web-design
   - development
   - tools
+related:
+  - "[[resources/Everything Claude Code - Complete Config Collection]]"
+  - "[[projects/Argus]]"
 ---
 
 # Stop Making Ugly Websites with Claude Code
