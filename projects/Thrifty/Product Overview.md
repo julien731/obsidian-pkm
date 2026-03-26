@@ -12,6 +12,16 @@ related:
 
 # Thrifty - Product Overview
 
+## Vision
+
+Thrifty empowers everyone to build wealth — no financial degree required. By making every dollar visible and every decision intentional, Thrifty transforms budgeting from a chore into a clear path forward. Whether you're living paycheck to paycheck or planning your first investment, Thrifty meets you where you are and gives you the tools to take control, grow your savings, and build the financial future you deserve.
+
+## Mission
+
+Thrifty's mission is to make financial clarity accessible to everyone. We give young adults, families, and anyone intentional about their future the power to see exactly where their money goes — and where it's going next. No jargon, no complexity, just a straightforward system that turns every paycheck into a plan and every plan into progress.
+
+## What Is Thrifty?
+
 Thrifty is a budgeting application that combines zero-dollar budgeting with the envelope system for modern digital banking. It helps people understand how much money they have and where it is.
 
 ## Core Problem
