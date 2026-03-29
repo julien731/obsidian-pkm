@@ -9,7 +9,11 @@ tags:
   - workers
   - sandboxing
   - infrastructure
+  - agent-architecture
 source: https://blog.cloudflare.com/dynamic-workers/
+related:
+  - "[[projects/Argus]]"
+  - "[[projects/Argus Autonomous Orchestration]]"
 ---
 
 # Sandboxing AI agents, 100x faster
@@ -38,3 +42,8 @@ The key insight: at consumer scale (every user has an agent), containers are too
 ## Relevance
 
 Relevant for AI agent architecture, especially any project where sandboxed code execution is needed (e.g., agentic workflows, dynamic tool generation).
+
+## Related Notes
+
+- [[projects/Argus]] — Argus is an agent-execution framework; Dynamic Workers could serve as the sandboxed code execution layer for agent-generated code
+- [[projects/Argus Autonomous Orchestration]] — The autonomous runner dispatches isolated agent sessions; Dynamic Workers offer an even more lightweight isolation primitive worth evaluating

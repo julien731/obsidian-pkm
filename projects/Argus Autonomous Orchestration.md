@@ -13,6 +13,7 @@ related:
   - "[[projects/Argus]]"
   - "[[resources/Research - Autonomous Orchestration for Argus]]"
   - "[[resources/Research - Runner Deployment and Team Patterns for Argus]]"
+  - "[[resources/cloudflare-dynamic-workers]]"
 ---
 
 The autonomous orchestration layer sits on top of Argus to enable parallel, unattended feature execution. A long-running centralized runner polls the PM tool for stories in "Ready" status, dispatches isolated agent sessions per story, and manages each through a blueprint (state machine) from setup to PR — with human gates only at spec approval and PR review.
