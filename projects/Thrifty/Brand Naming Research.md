@@ -121,6 +121,37 @@ Inspired by Ramp's brand: one real English word, short, not literally about mone
 
 Checked 2026-03-29. ".app" domains couldn't be verified via whois — check manually on a registrar.
 
+### Lever
+
+| Domain | Status |
+|--------|--------|
+| lever.com | Taken (since 1999) — Lever is an ATS/recruiting software company |
+| lever.io | Taken (2023) |
+| leverapp.com | Taken |
+| getlever.com | Taken |
+| uselever.com | Taken (2025) |
+| levermoney.com | Taken (2025) |
+| **leverbudget.com** | **Available** |
+| leverfinance.com | Taken |
+| lever.app | Unknown (check registrar) |
+
+Lever (lever.co) is a well-known recruiting platform. Namespace is crowded and there's brand confusion risk in tech circles.
+
+### Tide
+
+| Domain | Status |
+|--------|--------|
+| tide.com | Taken (P&G detergent brand) |
+| tideapp.com | Taken |
+| gettide.com | Taken |
+| usetide.com | Taken |
+| tidemoney.com | Taken (2025) |
+| tidefinance.com | Taken |
+| **tidebudget.com** | **Available** |
+| tide.app | Unknown (check registrar) |
+
+Tide is also a UK business banking app (tide.co). Double brand conflict: P&G detergent + fintech competitor.
+
 ### Stash
 
 | Domain | Status |
@@ -246,6 +277,15 @@ Best domain availability of the round 2 shortlist. Multiple good .com options op
 
 ## Summary of All Available Domains
 
+### Round 3 (Ramp-inspired, short real words)
+
+| Domain | Brand | Notes |
+|--------|-------|-------|
+| **leverbudget.com** | Lever | Only available variant. Lever.co is a recruiting platform — brand conflict risk. |
+| **tidebudget.com** | Tide | Only available variant. Tide.co is a UK business bank — direct competitor conflict. |
+
+Both names are strong conceptually but very tough domain-wise, with existing brand conflicts in adjacent spaces.
+
 ### Round 2 (wealth-building focus)
 
 | Domain | Brand | Notes |
@@ -276,4 +316,4 @@ Best domain availability of the round 2 shortlist. Multiple good .com options op
 
 ### Worth checking on a registrar (.app TLD)
 
-headway.app, prosperly.app, stackd.app, rizn.app, thrive.app
+lever.app, tide.app, headway.app, prosperly.app, stackd.app, rizn.app, thrive.app
