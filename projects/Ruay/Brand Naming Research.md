@@ -2,18 +2,37 @@
 type: resource
 created: 2026-03-29
 status: active
-summary: Brand naming research and domain brainstorming for the Thrifty budgeting app
+summary: "Brand naming research for Ruay (formerly Thrifty) — selected name means 'rich' in Thai (รวย)"
 tags:
   - branding
   - side-hustle
 related:
-  - "[[projects/Thrifty/Thrifty]]"
-  - "[[projects/Thrifty/Product Overview]]"
+  - "[[projects/Ruay/Thrifty]]"
+  - "[[projects/Ruay/Product Overview]]"
 ---
 
 # Brand Naming Research
 
-Thrifty is the working codename for a personal budgeting app combining zero-dollar budgeting with the envelope system. This document captures the naming exploration to find a proper brand.
+Thrifty was the working codename for a personal budgeting app combining zero-dollar budgeting with the envelope system. This document captures the naming exploration that led to selecting **Ruay** as the brand name.
+
+## Decision: Ruay (รวย)
+
+**Selected 2026-03-31.** Thai word meaning "rich." 4 letters, easy to pronounce in English, sounds like a clean brand name to international audiences. Personal connection for the founder (Bangkok-based).
+
+**Registered domains (2026-03-31):**
+- getruay.com (primary)
+- ruay.money
+- ruayapp.com
+
+**Still available (not registered):**
+- useruay.com
+- ruaybudget.com
+- ruaymoney.com
+
+**Next steps:**
+- [ ] Check social media handle availability (@ruay, @getruay, etc.)
+- [ ] Check trademark conflicts
+- [x] Update project documents to use "Ruay" instead of "Thrifty"
 
 ## Brand Context
 

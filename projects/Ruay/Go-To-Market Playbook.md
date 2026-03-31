@@ -1,17 +1,17 @@
 ---
 type: resource
 created: 2026-03-15
-summary: Go-to-market playbook for Thrifty covering pre-launch, launch channels, content/SEO, community building, partnerships, and 12-month timeline
+summary: Go-to-market playbook for Ruay covering pre-launch, launch channels, content/SEO, community building, partnerships, and 12-month timeline
 tags:
   - product
   - side-hustle
 related:
-  - "[[projects/Thrifty/Thrifty]]"
-  - "[[projects/Thrifty/Market Research]]"
-  - "[[projects/Thrifty/Pricing Strategy]]"
+  - "[[projects/Ruay/Ruay]]"
+  - "[[projects/Ruay/Market Research]]"
+  - "[[projects/Ruay/Pricing Strategy]]"
 ---
 
-# Thrifty - Go-To-Market Playbook
+# Ruay - Go-To-Market Playbook
 
 ## Part 1: Pre-Launch Strategy
 
@@ -59,7 +59,7 @@ related:
 
 - Start with 50-100 closed beta users, not 1,000
 - Recruit from: own network, r/personalfinance, r/ynab, Indie Hackers, waitlist
-- **Sean Ellis test every beta user:** "How would you feel if you could no longer use Thrifty?" — need 40%+ "Very disappointed" before scaling
+- **Sean Ellis test every beta user:** "How would you feel if you could no longer use Ruay?" — need 40%+ "Very disappointed" before scaling
 - Charge from day one (even $1/month) - paid beta users give signal, free users give noise
 - Offer "founder rate" ($5/month locked forever) to first 200 users
 
@@ -69,7 +69,7 @@ related:
 
 - Lunch Money: one Show HN → 1,000+ signups → 100 paying customers
 - Post Tuesday-Thursday, 7-10am ET
-- Title: "Show HN: Thrifty – Envelope budgeting tied to real bank accounts"
+- Title: "Show HN: Ruay – Envelope budgeting tied to real bank accounts"
 - Lead comment = founder story + specific problem
 - Respond to every comment in first 2 hours
 - Front-page HN post drives 10,000+ visitors in a single day
@@ -138,7 +138,7 @@ Low volume (dozens to hundreds/month) but near-zero competition and extremely hi
 
 ### Content Types That Convert
 1. **Methodology explainers** - rank for search AND establish authority
-2. **Comparison content** - "Thrifty vs YNAB: The key difference is where your money lives"
+2. **Comparison content** - "Ruay vs YNAB: The key difference is where your money lives"
 3. **Problem-specific posts** - "I budgeted for it but the money is in the wrong account"
 4. **Weekly/monthly newsletter** - start day one (YNAB's email list is a massive retention engine)
 
@@ -187,7 +187,7 @@ Low volume (dozens to hundreds/month) but near-zero competition and extremely hi
 - 22% of credit unions cite budgeting tools as a pipeline priority
 - Sales cycle: 6-18 months
 - Access point: CUSO networks and Curql Fund
-- Thrifty's envelope-account message is perfect for credit unions emphasizing financial wellness
+- Ruay's envelope-account message is perfect for credit unions emphasizing financial wellness
 - Could be a genuinely differentiated B2B2C channel in Year 2
 
 ## Part 6: Growth Loops
@@ -202,7 +202,7 @@ Low volume (dozens to hundreds/month) but near-zero competition and extremely hi
 
 ### Household Sharing as Organic Loop
 
-1. User sets up Thrifty
+1. User sets up Ruay
 2. Partner/spouse needs to see shared budget
 3. Invite partner → two users, one household
 4. Partner shares with friends/siblings → organic referral
@@ -322,9 +322,9 @@ The Mint shutdown displacement is still not fully absorbed. A significant portio
 - Are frustrated with YNAB's pricing ($109)
 - Are frustrated with virtual envelopes that don't tell them which account to spend from
 
-This is documented in r/ynab and r/personalfinance. It is exactly the problem Thrifty solves.
+This is documented in r/ynab and r/personalfinance. It is exactly the problem Ruay solves.
 
-**Every piece of marketing should connect to:** "The one thing YNAB can't tell you — which account to spend from — is the thing Thrifty was built to solve."
+**Every piece of marketing should connect to:** "The one thing YNAB can't tell you — which account to spend from — is the thing Ruay was built to solve."
 
 ## Channel Priority Summary (ROI order)
 

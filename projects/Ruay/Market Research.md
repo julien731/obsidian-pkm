@@ -1,4 +1,4 @@
-# Thrifty - Market Research Analysis - Budgeting App Commercial Viability
+# Ruay - Market Research Analysis - Budgeting App Commercial Viability
 
 **Date:** 2026-03-15
 **Status:** Living document
@@ -125,11 +125,11 @@
 
 ## Differentiator Assessment
 
-**Thrifty's differentiator: envelopes tied to physical bank accounts.**
+**Ruay's differentiator: envelopes tied to physical bank accounts.**
 
 - **No mainstream app does this.** YNAB, Monarch, Goodbudget, EveryDollar, Copilot all track envelopes and accounts separately.
 - **Qube Money** tried the fully-integrated version (become a bank) and struggles with 6,200 subscribers.
-- **Thrifty's overlay approach** (work with existing accounts, guide spending) is lower friction than Qube.
+- **Ruay's overlay approach** (work with existing accounts, guide spending) is lower friction than Qube.
 - **Strength: Medium-to-High.** Real gap, genuinely unserved.
 - **Risk:** Could be copied by a larger player as a feature update. Need to embed differentiation in workflows, UX, and community.
 

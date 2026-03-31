@@ -1,28 +1,28 @@
 ---
 type: resource
 created: 2026-03-15
-summary: Thrifty product overview covering core concepts, envelope types, multi-tenancy model, workflows, and differentiators
+summary: Ruay product overview covering core concepts, envelope types, multi-tenancy model, workflows, and differentiators
 tags:
   - product
   - side-hustle
 related:
-  - "[[projects/Thrifty/Thrifty]]"
-  - "[[projects/Thrifty/Market Research]]"
+  - "[[projects/Ruay/Ruay]]"
+  - "[[projects/Ruay/Market Research]]"
 ---
 
-# Thrifty - Product Overview
+# Ruay - Product Overview
 
 ## Vision
 
-Thrifty empowers everyone to build wealth — no financial degree required. By making every dollar visible and every decision intentional, Thrifty transforms budgeting from a chore into a clear path forward. Whether you're living paycheck to paycheck or planning your first investment, Thrifty meets you where you are and gives you the tools to take control, grow your savings, and build the financial future you deserve.
+Ruay empowers everyone to build wealth — no financial degree required. By making every dollar visible and every decision intentional, Ruay transforms budgeting from a chore into a clear path forward. Whether you're living paycheck to paycheck or planning your first investment, Ruay meets you where you are and gives you the tools to take control, grow your savings, and build the financial future you deserve.
 
 ## Mission
 
-Thrifty's mission is to make financial clarity accessible to everyone. We give young adults, families, and anyone intentional about their future the power to see exactly where their money goes — and where it's going next. No jargon, no complexity, just a straightforward system that turns every paycheck into a plan and every plan into progress.
+Ruay's mission is to make financial clarity accessible to everyone. We give young adults, families, and anyone intentional about their future the power to see exactly where their money goes — and where it's going next. No jargon, no complexity, just a straightforward system that turns every paycheck into a plan and every plan into progress.
 
-## What Is Thrifty?
+## What Is Ruay?
 
-Thrifty is a budgeting application that combines zero-dollar budgeting with the envelope system for modern digital banking. It helps people understand how much money they have and where it is.
+Ruay is a budgeting application that combines zero-dollar budgeting with the envelope system for modern digital banking. It helps people understand how much money they have and where it is.
 
 ## Core Problem
 
@@ -33,7 +33,7 @@ Most people don't know how much money they actually have available to spend. The
 - $200 is earmarked for groceries
 - They actually have $1,200 of "available" money
 
-Thrifty solves this by making the invisible visible.
+Ruay solves this by making the invisible visible.
 
 ## Key Concepts
 
@@ -149,7 +149,7 @@ Each income creates a new budget period. You allocate your paycheck to envelopes
 - Savers wanting to track progress toward goals
 - Anyone who's asked "Where did my money go?"
 
-## What Makes Thrifty Different
+## What Makes Ruay Different
 
 - **Unified Envelope/Goal Model:** Goals aren't separate — they're just envelopes with targets
 - **Replacement Planning:** Proactively save for inevitable replacements

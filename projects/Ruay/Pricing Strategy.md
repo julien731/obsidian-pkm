@@ -1,16 +1,16 @@
 ---
 type: resource
 created: 2026-03-15
-summary: Pricing strategy research for Thrifty covering competitive landscape, price elasticity, trial design, and recommended launch pricing
+summary: Pricing strategy research for Ruay covering competitive landscape, price elasticity, trial design, and recommended launch pricing
 tags:
   - product
   - side-hustle
 related:
-  - "[[projects/Thrifty/Thrifty]]"
-  - "[[projects/Thrifty/Market Research]]"
+  - "[[projects/Ruay/Ruay]]"
+  - "[[projects/Ruay/Market Research]]"
 ---
 
-# Thrifty - Pricing Strategy Research
+# Ruay - Pricing Strategy Research
 
 ## Competitive Pricing Landscape (2025-2026)
 
@@ -149,10 +149,10 @@ ProfitWell data across 3,000+ SaaS:
 
 - YNAB, Monarch: Household included in single subscription
 - Including household access free is correct at launch because:
-  1. Thrifty's value is most powerful for couples with joint finances
+  1. Ruay's value is most powerful for couples with joint finances
   2. "Convince your partner" is one of highest-LTV acquisition paths
   3. Charging per seat at $109 creates resentment
-- Future opportunity: "Thrifty Family" at $129/year (3+ users, sub-accounts per member)
+- Future opportunity: "Ruay Family" at $129/year (3+ users, sub-accounts per member)
 
 ## Revenue per User: Add-on Opportunities
 
@@ -173,14 +173,14 @@ ProfitWell data across 3,000+ SaaS:
 
 ### Concept
 
-Users with negative net worth pay a symbolic $1/month instead of full price. This is aligned with Thrifty's mission ("help people create wealth") and creates a powerful acquisition, retention, and marketing loop.
+Users with negative net worth pay a symbolic $1/month instead of full price. This is aligned with Ruay's mission ("help people create wealth") and creates a powerful acquisition, retention, and marketing loop.
 
 ### Why It Works
 
 - **Self-correcting verification:** Net worth is calculated from the user's own data in the app. To "fake" negative net worth, a user would have to omit accounts — which makes the product useless to them. The incentive to be honest is built into the product itself.
-- **Natural conversion funnel:** Someone who goes from -$5K to +$2K using Thrifty has experienced a life change. They will pay $79/year without blinking, never churn, and tell everyone.
-- **Genuine competitive moat:** YNAB and Monarch can't easily copy this without cannibalizing existing revenue. Thrifty can because there's no existing revenue to protect.
-- **Marketing that writes itself:** "Thrifty costs $1/month until you're back on your feet" is a headline personal finance YouTubers would cover unprompted.
+- **Natural conversion funnel:** Someone who goes from -$5K to +$2K using Ruay has experienced a life change. They will pay $79/year without blinking, never churn, and tell everyone.
+- **Genuine competitive moat:** YNAB and Monarch can't easily copy this without cannibalizing existing revenue. Ruay can because there's no existing revenue to protect.
+- **Marketing that writes itself:** "Ruay costs $1/month until you're back on your feet" is a headline personal finance YouTubers would cover unprompted.
 
 ### Guardrails
 

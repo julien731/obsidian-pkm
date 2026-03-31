@@ -11,7 +11,7 @@ tags:
 
 ## Git Pull
 - Pulled latest from origin/main
-- **New files landed**: `projects/Thrifty/Brand Naming Research.md`, `projects/Thrifty/Product Overview.md` (Thrifty project is actively growing)
+- **New files landed**: `projects/Ruay/Brand Naming Research.md`, `projects/Ruay/Product Overview.md` (Ruay project, formerly Thrifty is actively growing)
 
 ---
 
@@ -78,8 +78,8 @@ The majority of projects/ have not been modified since **2026-01-19** (69 days a
 ---
 
 ## 4. Newly Active — Thrifty Project
-- `projects/Thrifty/Brand Naming Research.md` (added today via pull)
-- `projects/Thrifty/Product Overview.md` (updated today)
+- `projects/Ruay/Brand Naming Research.md` (added today via pull)
+- `projects/Ruay/Product Overview.md` (updated today)
 - This cluster is well-linked internally; no action needed
 
 ---
