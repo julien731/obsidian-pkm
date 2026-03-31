@@ -117,9 +117,34 @@ Inspired by Ramp's brand: one real English word, short, not literally about mone
 | **Lever** | Empowering, smart | "Small actions, big results." Financial leverage. Works as verb and noun. 5 chars. Built-in tagline: "Lever your money." Implies intelligence — using a lever is about working smarter. | "Leverage" has finance connotations (debt leverage) that could cut both ways. Common word — domains may be tough. |
 | **Tide** | Calm, confident | "A rising tide lifts all boats." Natural, steady growth. 4 chars — incredibly clean. Works across cultures. Implies something bigger than you carrying you forward. | Very common word. Tide is a detergent brand (different category, but high awareness). Could feel passive — tide happens to you vs. you taking action. |
 
+### Round 4 — Fresh directions (French, Thai, mythology)
+
+Explored three new angles: French words, Thai words, and mythology names for a brand rooted in clarity and wealth-building.
+
+| Name | Origin | Vibe | Strengths | Risks |
+|------|--------|------|-----------|-------|
+| **Ruay** | Thai (รวย) = "rich" | Warm, insider, personal | 4 letters. Easy to say in English. Sounds like a clean brand name to non-Thai speakers. Personal connection (Bangkok-based founder). Strong domain availability — 5 confirmed .com options. | Associated with Thai lottery/gambling apps. Non-Thai speakers won't get the meaning without explanation (could be a feature or a bug). |
+
 ## Domain Availability
 
-Checked 2026-03-29. ".app" domains couldn't be verified via whois — check manually on a registrar.
+Checked 2026-03-29 and 2026-03-31. ".app" and ".money" domains couldn't be verified via whois — check manually on a registrar.
+
+### Ruay
+
+| Domain | Status |
+|--------|--------|
+| ruay.com | Taken (since 2002) |
+| ruay.io | Taken |
+| ruay.co | Taken |
+| **ruayapp.com** | **Available** |
+| **getruay.com** | **Available** |
+| **useruay.com** | **Available** |
+| **ruaybudget.com** | **Available** |
+| **ruaymoney.com** | **Available** |
+| ruay.app | Taken |
+| **ruay.money** | **Available** |
+
+Best domain availability of any shortlisted name. Risk: "ruay" is associated with Thai lottery/gambling apps — check if that's a problem for App Store positioning.
 
 ### Lever
 
