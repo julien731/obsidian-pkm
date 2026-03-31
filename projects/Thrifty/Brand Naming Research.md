@@ -314,6 +314,107 @@ Both names are strong conceptually but very tough domain-wise, with existing bra
 | **dollarsorted.com** | Descriptive |
 | **myclearbudget.com** | SEO-friendly |
 
-### Worth checking on a registrar (.app TLD)
+### Luma family (clarity/light theme — current favorite direction)
 
-lever.app, tide.app, headway.app, prosperly.app, stackd.app, rizn.app, thrive.app
+| Domain | Brand | Status |
+|--------|-------|--------|
+| luma.com | Luma | Taken (since 1995) — lu.ma is a major events platform |
+| luma.io | Luma | Taken |
+| luma.co | Luma | Taken |
+| lumaapp.com | Luma | Taken |
+| getluma.com | Luma | Taken |
+| useluma.com | Luma | Taken |
+| lumamoney.com | Luma | Taken (2025) |
+| lumafinance.com | Luma | Taken |
+| tryluma.com | Luma | Taken |
+| **lumabudget.com** | **Luma** | **Available** |
+| luma.app | Luma | Unknown (check registrar) |
+| luma.money | Luma | Unknown (check registrar) |
+| lumen.com | Lumen | Taken (since 1994) — Lumen Technologies (formerly CenturyLink) |
+| lumen.io | Lumen | Taken |
+| lumen.app | Lumen | Unknown (check registrar) |
+| lumis.com | Lumis | Taken |
+| lumis.io | Lumis | Taken |
+| lumia.com | Lumia | Taken (Nokia Lumia phones) |
+| lumia.io | Lumia | Taken |
+| lumyn.com | Lumyn | Taken |
+| lumyn.io | Lumyn | Taken |
+| lumyn.app | Lumyn | Unknown (check registrar) |
+
+**Key concern:** "Luma" is heavily used — lu.ma (events platform) is well-known in tech. Lumen Technologies is a major telco. Nokia Lumia had massive brand awareness.
+
+**Available confirmed:** lumabudget.com (but loses the clean single-word energy)
+
+**Must check on registrar:** luma.app, luma.money, lumyn.app
+
+### Lumen (.com/.io taken, Lumen Technologies is a major telco)
+
+| Domain | Status |
+|--------|--------|
+| lumen.app | Unknown (check registrar) |
+
+Only the .app is worth checking. Heavy brand conflict.
+
+### Lumis
+
+| Domain | Status |
+|--------|--------|
+| lumis.com | Taken |
+| lumis.io | Taken |
+| getlumis.com | Taken (2024) |
+| uselumis.com | Taken (2024) |
+| lumisapp.com | Taken (2025) |
+| **lumisbudget.com** | **Available** |
+| **lumismoney.com** | **Available** |
+| lumis.app | Unknown (check registrar) |
+| lumis.money | Unknown (check registrar) |
+
+### Lumia (Nokia Lumia — strong existing brand awareness)
+
+| Domain | Status |
+|--------|--------|
+| lumia.com | Taken (since 1997) |
+| lumia.io | Taken |
+| getlumia.com | Taken (2024) |
+| uselumia.com | Taken (2026 — very recent) |
+| lumiaapp.com | Taken (2026 — very recent) |
+| **lumiabudget.com** | **Available** |
+| **lumiamoney.com** | **Available** |
+| lumia.app | Unknown (check registrar) |
+| lumia.money | Unknown (check registrar) |
+
+Recent registrations (2026) suggest others are actively exploring this name.
+
+### Lumyn
+
+| Domain | Status |
+|--------|--------|
+| lumyn.com | Taken |
+| lumyn.io | Taken |
+| getlumyn.com | Taken (2025) |
+| lumynapp.com | Taken |
+| **uselumyn.com** | **Available** |
+| **lumynbudget.com** | **Available** |
+| **lumynmoney.com** | **Available** |
+| lumyn.app | Unknown (check registrar) |
+| lumyn.money | Unknown (check registrar) |
+
+Best .com availability in the family. uselumyn.com is clean.
+
+## Overall Ranking — Light/Clarity Family
+
+| Brand | Best available .com | Must-check on registrar | Brand conflict risk |
+|-------|--------------------|-----------------------|-------------------|
+| **Luma** | lumabudget.com | luma.app, luma.money | High (lu.ma events platform) |
+| **Lumen** | — | lumen.app | Very high (Lumen Technologies) |
+| **Lumis** | lumisbudget.com, lumismoney.com | lumis.app, lumis.money | Low |
+| **Lumia** | lumiabudget.com, lumiamoney.com | lumia.app, lumia.money | Medium (Nokia Lumia, discontinued) |
+| **Lumyn** | **uselumyn.com**, lumynbudget.com, lumynmoney.com | lumyn.app, lumyn.money | Low |
+
+**Best overall position: Lumyn** — lowest brand conflict, most .com options available, unique enough to own.
+
+**Best name if .app is available: Luma** — but verify luma.app on a registrar first.
+
+### Worth checking on a registrar (.app / .money TLD)
+
+luma.app, luma.money, lumis.app, lumis.money, lumia.app, lumia.money, lumyn.app, lumyn.money, lumen.app
