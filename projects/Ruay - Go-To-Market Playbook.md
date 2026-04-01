@@ -1,14 +1,15 @@
 ---
-type: resource
+type: project
 created: 2026-03-15
+status: active
 summary: Go-to-market playbook for Ruay covering pre-launch, launch channels, content/SEO, community building, partnerships, and 12-month timeline
 tags:
   - product
   - side-hustle
 related:
-  - "[[projects/Ruay/Ruay]]"
-  - "[[projects/Ruay/Market Research]]"
-  - "[[projects/Ruay/Pricing Strategy]]"
+  - "[[areas/Ruay]]"
+  - "[[resources/Ruay - Market Research]]"
+  - "[[resources/Ruay - Pricing Strategy]]"
 ---
 
 # Ruay - Go-To-Market Playbook

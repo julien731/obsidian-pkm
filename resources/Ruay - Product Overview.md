@@ -6,8 +6,8 @@ tags:
   - product
   - side-hustle
 related:
-  - "[[projects/Ruay/Ruay]]"
-  - "[[projects/Ruay/Market Research]]"
+  - "[[areas/Ruay]]"
+  - "[[resources/Ruay - Market Research]]"
 ---
 
 # Ruay - Product Overview

@@ -1,3 +1,15 @@
+---
+type: resource
+created: 2026-03-15
+summary: Market research for Ruay covering market sizing, competitor analysis, revenue models, user acquisition costs, and realistic indie revenue projections
+tags:
+  - research
+  - side-hustle
+related:
+  - "[[areas/Ruay]]"
+  - "[[resources/Ruay - Pricing Strategy]]"
+---
+
 # Ruay - Market Research Analysis - Budgeting App Commercial Viability
 
 **Date:** 2026-03-15

@@ -7,8 +7,8 @@ tags:
   - branding
   - side-hustle
 related:
-  - "[[projects/Ruay/Thrifty]]"
-  - "[[projects/Ruay/Product Overview]]"
+  - "[[areas/Ruay]]"
+  - "[[resources/Ruay - Product Overview]]"
 ---
 
 # Brand Naming Research

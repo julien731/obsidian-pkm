@@ -1,3 +1,20 @@
+---
+type: project
+created: 2026-04-01
+status: active
+summary: Tactical pre-launch plan for Ruay with 5-phase execution, founding member pricing, channel strategy, and messaging by audience segment
+tags:
+  - product
+  - side-hustle
+  - launch
+related:
+  - "[[areas/Ruay]]"
+  - "[[resources/Ruay - Messaging Research]]"
+  - "[[projects/Ruay - Go-To-Market Playbook]]"
+  - "[[resources/Ruay - Pricing Strategy]]"
+---
+
+Actionable pre-launch plan for Ruay, a bootstrapped solo launch with zero audience and 1-2 months to build momentum.
 
 ## Where You Stand
 
@@ -54,7 +71,7 @@ Launching a new product with zero audience and 1-2 months to build pre-launch mo
 - [ ] Share user testimonials/feedback on social (with permission)
 - [ ] Reach out to 5-10 personal finance micro-influencers — offer free Founding Member access
 - [ ] Prepare Product Hunt assets (listing copy, screenshots, demo GIF)
-- [ ] Write comparison content: "Thrifty vs YNAB" — publish post-launch
+- [ ] Write comparison content: "Ruay vs YNAB" — publish post-launch
 
 ### Phase 5: Full Launch (Week 8+)
 
@@ -84,7 +101,7 @@ The $59/year founding member tier is a great launch lever. Use it to create urge
 
 ## Messaging
 
-See [[Messaging Research]] for full research backing these decisions.
+See [[resources/Ruay - Messaging Research]] for full research backing these decisions.
 
 ### Primary Tagline
 

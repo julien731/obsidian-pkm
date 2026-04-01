@@ -1,3 +1,16 @@
+---
+type: resource
+created: 2026-04-01
+summary: Problem validation research proving "not knowing what you can spend" is a widespread pain point beyond envelope budgeting users, with positioning recommendations
+tags:
+  - research
+  - side-hustle
+  - messaging
+related:
+  - "[[areas/Ruay]]"
+  - "[[resources/Ruay - Market Research]]"
+  - "[[projects/Ruay - Launch Strategy]]"
+---
 
 Research conducted 2026-04-01 to validate whether "not knowing what you can actually spend" is a real, widespread problem — and whether it extends beyond existing envelope budgeting users.
 
