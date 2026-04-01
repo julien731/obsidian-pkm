@@ -1,4 +1,16 @@
-# Build in Public on X - Research
+---
+type: resource
+created: 2026-04-01
+summary: Research on the #buildinpublic movement on X/Twitter for solo founders, with focus on what works for a personal finance app launching from zero
+tags:
+  - marketing
+  - side-hustle
+  - social-media
+related:
+  - "[[areas/Ruay]]"
+  - "[[projects/Ruay - Launch Strategy]]"
+  - "[[projects/Ruay - Go-To-Market Playbook]]"
+---
 
 Research conducted 2026-04-01 on the #buildinpublic movement on X/Twitter for solo founders, with focus on what works for a personal finance app launching from zero.
 
