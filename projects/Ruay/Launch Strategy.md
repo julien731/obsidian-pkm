@@ -1,4 +1,3 @@
-# Launch Strategy
 
 ## Where You Stand
 
@@ -83,18 +82,38 @@ The $59/year founding member tier is a great launch lever. Use it to create urge
 - Mention the cap in every launch communication
 - After launch, periodically update: "127/500 Founding Member spots claimed"
 
-## Messaging Angles
+## Messaging
 
-Lead with the problem, not the feature:
+See [[Messaging Research]] for full research backing these decisions.
 
-| Audience Pain Point | Message |
-|---|---|
-| "I budget but still overspend" | "When your envelope is a real account, you can't accidentally spend rent money on takeout" |
-| "YNAB is too expensive / complicated" | "Simple envelope budgeting at half the price — and your envelopes are real" |
-| "I'm in debt and overwhelmed" | "Our Comeback Plan: $1/month if your net worth is negative" |
-| "My partner and I fight about money" | "Share what you want, keep the rest private — budgeting without the arguments" |
+### Primary Tagline
 
-The **Comeback Plan** ($1/month for negative net worth users) is an incredibly compelling story. Lead with it in borrowed channels — it's the kind of thing that gets press coverage and Reddit upvotes.
+**"Know what you can actually spend."**
+
+Resonates whether you've never budgeted or you're a frustrated YNAB user. The envelope-to-account mapping becomes the *how*, not the *what*.
+
+### Landing Page Hero
+
+> **Know what you can actually spend.**
+>
+> Your bank says $3,000. But rent is due Tuesday, groceries come out Friday, and your car insurance auto-pays next week. How much is really yours?
+>
+> Ruay gives every dollar a job and a place — with envelopes tied to real bank accounts, you never have to guess again.
+
+### Messaging by Audience
+
+| Audience | Pain Point | Message |
+|---|---|---|
+| General (never budgeted) | "I see money but don't know if I can spend it" | "Your balance isn't what you think. Ruay shows what's actually yours." |
+| YNAB / envelope users | "My categories say one thing, my accounts say another" | "Envelopes tied to real accounts — no more guessing which account to spend from." |
+| People in debt | "I'm overwhelmed and don't know where to start" | "Our Comeback Plan: $1/month if your net worth is negative." |
+| Couples / families | "We fight about money" | "Share what you want, keep the rest private — budgeting without the arguments." |
+
+### PR / Borrowed Channel Angles
+
+The **Comeback Plan** ($1/month for negative net worth users) is the strongest story for press coverage and Reddit. Lead with it in borrowed channels.
+
+The **"14 bank accounts" workaround** is a great hook for content: "People are opening 14 bank accounts to solve a problem that should take one app."
 
 ## Weekly Time Budget
 
