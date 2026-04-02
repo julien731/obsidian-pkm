@@ -106,3 +106,6 @@ Sometimes he forgets to update the ticket after team discussions, especially whe
 Clark could enhance his communication by incorporating more visual diagrams— such as flowcharts, sequence diagrams, or state diagrams—when presenting complex features or issues.
 
 When translating requirements from stakeholders to the engineering team, there is room for Clark to be more structured and explicit. At times, context or constraints from stakeholder discussions may not be fully captured in tickets or Slack threads, leading to assumptions or follow-up questions. A consistent format for documenting requirements—covering the "why" behind decisions, acceptance criteria, and known constraints—would help the team move faster with fewer ambiguities.
+### From Julien (me)
+- You need to plan proactively for everything. E.g., the JPOS pilot rollout. I should not have had to ask all those questions. You should have prepared it all on your own, even if it's not entirely our responsibility. If we're involved, we need to ensure things will work out smoothly.
+- You need to better identify important/dangerous situations. E.g., the CBTL order confirmation email. If they received something from the government, it's a strong signal that we need to be extremely careful with how we're handling it.
