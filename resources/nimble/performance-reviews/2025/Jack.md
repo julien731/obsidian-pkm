@@ -86,4 +86,5 @@ Nothing major comes to mind. Of course, no one is perfect, but from my perspecti
 ## From Julien (me)
 
 - You need to be more pragmatic on defining MVPs
+- Too much focus on edge cases, "what if," "they might want to"
 - You need to be more attentive to things that have been tested and confirmed (i.e., the technical details in Okya user stories which should not have been there)
