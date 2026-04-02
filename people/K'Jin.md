@@ -13,6 +13,8 @@ summary: Partner at RelationshipRepublic (RR), the agency Nimble collaborates wi
 
 K'Jin works at RelationshipRepublic (RR), a partner agency that Nimble collaborates with on client engagements including Singha and BTG.
 
+Despite professional friction, she's a very nice, considerate, and friendly person. An amazing storyteller with an extremely large network of powerful people.
+
 ## Notes
 
 ### 2026-04-02 - Dinner at Guilty Bangkok
