@@ -67,6 +67,11 @@ I haven’t had many opportunities to work closely with him. However, from my in
 
 I also appreciate his effort to better understand the team’s work by setting up and testing the Okya storefront locally. This shows strong initiative and a willingness to stay close to the implementation, rather than waiting for the team to complete features before getting involved. This kind of proactive support is valuable for the team.
 
+### From Julien (me)
+
+- You're taking more ownership (and interest?) in the new project, that's good.
+- You've made improvements over time in ensuring the quality of what you deliver. You need to continue on that path.
+
 ## What Could Be Better
 
 ### From Manh
@@ -106,3 +111,48 @@ One area for improvement is the clarity and completeness of user stories. Curren
 I understand that the working style in the Okya project may differ, but having stronger support from the PM in refining and clarifying requirements would significantly improve the team’s efficiency.
 
 I haven’t had many direct interactions with him beyond the above, so my feedback is somewhat limited.
+
+### From Julien (me)
+
+- You've been to passive on the Okya project. I understand it was a challenging project, and, to be fair, I've seen you make progress towards taking more ownership over time. However, it's important that you take this as a lesson. There will be other difficult projects to manage, and your ability to make progress amidst chaos and complexity is what will make you a strong PM.
+- You need to become more outspoken. You should be more proactive in discovery and in pushing the project forward.
+- You need to work on your verbal communication. Language is not a problem. I'm not sure what the challenge is. Confidence, maybe? In any case, I know you have the capacity, and you need to actively work on it as it will drastically increase your credibility.
+
+## Phase 2: AI Synthesis
+
+### Patterns Across Reviewers
+
+**Strong consensus (4+ reviewers):** Jui is approachable, responsive, and quick to unblock people. Manh, Hoang, Vo Minh Don, and Sang all independently highlight this — it's clearly a defining trait of how the team experiences working with him.
+
+**Moderate consensus (2-3 reviewers):**
+- **Story quality is inconsistent.** Vo Minh Don praises well-structured stories with clear acceptance criteria, while Hoang and Naveed say tickets often lack sufficient detail and need extra discussion. This isn't contradictory — it likely means Jui is capable of writing strong stories but doesn't do it consistently, possibly depending on how well he understands the feature or how much time pressure he's under.
+- **Design change tracking is a gap.** Both James Totty and Vo Minh Don flag that UI changes from designers aren't communicated or tracked with corresponding dev tasks. This is a process gap Jui could own as PM.
+- **Proactive problem-solving.** Sang and Hoang both note Jui's initiative — the demo branch strategy, testing the storefront locally. He finds ways around blockers rather than waiting.
+
+**Diverging perspectives:**
+- Jakub's feedback is notably thin and hedged ("given new complex working environment, I am giving it without confidence"), suggesting limited interaction or reserved judgment. Not much to draw from here.
+
+### Blind Spots
+
+1. **He may not realize how much rework his process gaps cause.** Two reviewers flag design-to-dev handoff failures, and two flag ticket incompleteness. Jui likely sees himself as responsive and helpful (which he is), but may underestimate how much dev time is lost when stories are incomplete or design changes go uncommunicated. The downstream cost is invisible to him.
+
+2. **The "command tone" under pressure.** Only Sang raised this, but it's the kind of thing most people notice and few mention in a review. If one person writes it down with Slack links as evidence, others probably felt it too.
+
+3. **Self-sufficiency gap.** Sang's point about Jui asking the team to verify PR ordering — something he could check himself — hints at a broader pattern. He may default to asking rather than investigating, which creates small but cumulative friction.
+
+### Strength-to-Growth-Area Connections
+
+- **Approachability → passivity.** Jui's greatest strength (being helpful, responsive, collaborative) has a shadow side: he can default to reactive support rather than proactive ownership. Julien's observation about passivity on Okya is the clearest expression of this. Being approachable is necessary but not sufficient — a PM also needs to drive, not just respond.
+- **Problem-solving → avoiding confrontation.** Sang notes Jui "diminishes negative/stressful conversations." This is often a strength, but it can become avoidance. A PM sometimes needs to surface uncomfortable truths to stakeholders rather than smooth things over.
+
+### Development Recommendations
+
+1. **Establish a pre-development story checklist.** Before moving any ticket to "ready for dev," run it through a short list: Are acceptance criteria explicit? Are edge cases noted? Are design references linked and current? This addresses the inconsistency Hoang and Naveed flag without requiring Jui to change his writing ability — just his process.
+
+2. **Own the design-to-dev handoff.** Set up a lightweight ritual: when the designer updates a UI, Jui creates a task and notifies the relevant dev in the same day. This is a PM responsibility, and two reviewers independently identified the gap. Make it a habit, not a reaction.
+
+3. **Pause before asking the team.** When tempted to ask a dev to check something (PR ordering, branch status, etc.), spend 2 minutes trying to find the answer independently first. This builds technical fluency and reduces the small interruptions that erode the team's perception of PM competence.
+
+4. **Practice assertive communication.** Julien flagged verbal communication and confidence. Concrete step: in the next sprint's standups and planning sessions, prepare 2-3 key points in advance and deliver them without hedging. Record yourself if needed. The goal isn't personality change — it's preparation that creates the appearance (and eventually the reality) of confidence.
+
+5. **Reframe the PM role from "support" to "driver."** Jui's instinct is to help, unblock, and smooth over. The next level requires him to set direction, push back on scope, and make calls when stakeholders disagree — even when it's uncomfortable. Julien's feedback on passivity and Sang's note on diminishing stressful conversations both point here.

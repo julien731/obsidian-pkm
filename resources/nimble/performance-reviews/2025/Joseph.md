@@ -56,3 +56,34 @@ Can't think of anything.
 
 - Need to be more proactive on warning and/or pushing back when things get too far off track. E.g., the booking engine for InSepo. You did inform the client of the effort, but it's too mild.
 - You need to rethink your approach to AI-first work. You are too focused on tasks rather than workfows.
+
+## Phase 2: AI Synthesis
+
+### Patterns Across Reviewers
+
+**Consensus strengths (3/3 reviewers):**
+- Strong collaborator who keeps teams aligned and is genuinely pleasant to work with. Andrew highlights communication and positive atmosphere, James calls him "a joy to work with" and "strong collaborator," and Julien notes continued strong ownership.
+
+**Consensus development area (2/3 reviewers):**
+- Needs to be firmer when projects go off track. Andrew frames this as locking down decisions with a slippery client; Julien frames it more broadly — Joseph flags risks but doesn't push back hard enough to actually change course (e.g., the InSepo booking engine).
+
+### Where Perspectives Diverge
+
+- **James vs. Andrew on client management:** James saw only the positives of working with Joseph on InSepo discovery — fast delivery, strong collaboration. Andrew, who was closer to the design handoff side, saw the downstream effects of not locking decisions early enough. This isn't a contradiction — it reflects different vantage points on the same project. Joseph's execution speed impressed the external collaborator, but internal alignment and client decision-forcing needed more attention.
+- **James had no improvement feedback at all.** This may reflect a shorter or more contained working relationship (discovery-scoped), or genuine satisfaction. Worth noting but not over-indexing on.
+
+### Blind Spots
+
+- **Speed can mask process gaps.** Joseph delivers fast and clients notice — but both Andrew and Julien point to moments where speed came at the cost of internal alignment or proper pushback. Joseph may not see these as connected: he likely views his pace as a pure strength, when in some cases it lets ambiguity persist because things keep moving forward.
+- **"Informing" vs. "influencing."** Julien's observation that Joseph informed the client about effort but was "too mild" suggests Joseph may believe he's managing expectations when he's actually just documenting risk. There's a gap between flagging and actually changing the outcome.
+
+### Strengths Connected to Growth Areas
+
+- **Ownership → insufficient pushback.** Joseph's strong ownership means he absorbs problems and keeps delivering. The flip side is that he doesn't force the hard conversations that would prevent those problems. With InSepo, he kept delivering through scope creep rather than drawing a line.
+- **Client rapport → conflict avoidance.** His skill at maintaining positive client relationships may make him reluctant to create friction, even when friction is exactly what's needed (e.g., demanding sign-offs, rejecting scope additions).
+
+### Development Recommendations
+
+1. **Shift from "inform" to "block."** When scope or effort is becoming unreasonable, don't just tell the client — make it a decision point. Concrete practice: before the next sprint starts, present a written trade-off document that requires the client to choose what gets cut, not just acknowledge what's hard.
+2. **Pre-align design and deliverables before client calls.** Andrew's feedback is specific and actionable: review design work internally before presenting. Build in a 30-minute internal review before any client presentation where new work is shown for the first time.
+3. **Reframe AI adoption from task-level to workflow-level.** Julien's feedback suggests Joseph is using AI to speed up individual tasks rather than rethinking how work flows end-to-end. A concrete next step: pick one recurring workflow (e.g., discovery synthesis, requirements documentation) and redesign it around AI capabilities rather than just adding AI to existing steps.

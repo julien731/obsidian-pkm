@@ -57,8 +57,20 @@ Text-based communication (Slack, ticket comments) can read as blunt, commanding,
 Mentioned for: [[resources/nimble/performance-reviews/2025/Aiden|Aiden]] (3 reviewers), [[resources/nimble/performance-reviews/2025/Jui|Jui]] (1)
 
 ### Pushing back on clients
-Several PMs are seen as too accommodating with client requests — accepting scope, timelines, or decisions without sufficient pushback. The more senior PMs (Vu, Julien V.) are praised for their firmness, while mid-level PMs need to develop this skill.
-Mentioned for: [[resources/nimble/performance-reviews/2025/Clark|Clark]], [[resources/nimble/performance-reviews/2025/Got|Got]], [[resources/nimble/performance-reviews/2025/Joseph|Joseph]], [[resources/nimble/performance-reviews/2025/Tony|Tony]]
+Several PMs are seen as too accommodating with client requests — accepting scope, timelines, or decisions without sufficient pushback. This contrasts sharply with [[resources/nimble/performance-reviews/2025/Vu|Vu]] and [[resources/nimble/performance-reviews/2025/Julien V.|Julien V.]], who are specifically praised for combining firmness with respect — a clear development model for mid-level PMs.
+Mentioned for: [[resources/nimble/performance-reviews/2025/Clark|Clark]], [[resources/nimble/performance-reviews/2025/Got|Got]], [[resources/nimble/performance-reviews/2025/Joseph|Joseph]], [[resources/nimble/performance-reviews/2025/Jui|Jui]], [[resources/nimble/performance-reviews/2025/Tony|Tony]]
+
+### Strategic thinking vs. execution
+The team is operationally strong — delivery, responsiveness, and follow-through are consistently praised. But strategic and discovery thinking is underdeveloped. Few PMs are noted for shaping product direction, proposing new ideas, or challenging assumptions during discovery. This creates a ceiling on the team's impact: we execute well but rarely lead the "what" and "why."
+Mentioned for: [[resources/nimble/performance-reviews/2025/Andrew|Andrew]], [[resources/nimble/performance-reviews/2025/Clark|Clark]], [[resources/nimble/performance-reviews/2025/Got|Got]], [[resources/nimble/performance-reviews/2025/Jui|Jui]]
+
+### Quality vs. speed trade-off
+Multiple PMs show a pattern of trading thoroughness for speed — quick fixes over proper solutions, skipping internal alignment to move fast, or over-scoping MVPs because edge cases weren't triaged upfront. The result is rework, tech debt, or misaligned expectations downstream.
+Mentioned for: [[resources/nimble/performance-reviews/2025/Got|Got]], [[resources/nimble/performance-reviews/2025/Jack|Jack]], [[resources/nimble/performance-reviews/2025/Joseph|Joseph]], [[resources/nimble/performance-reviews/2025/Tony|Tony]]
+
+### Cross-team coordination
+When work spans teams or platforms, context gets lost. Cross-platform constraints aren't captured in tickets, design changes aren't communicated to affected parties, and internal review sometimes happens too late (e.g., after client presentation rather than before).
+Mentioned for: [[resources/nimble/performance-reviews/2025/Aiden|Aiden]], [[resources/nimble/performance-reviews/2025/Jack|Jack]], [[resources/nimble/performance-reviews/2025/Joseph|Joseph]], [[resources/nimble/performance-reviews/2025/Jui|Jui]]
 
 ### Documentation and knowledge transfer
 When projects change hands or new members join, the lack of up-to-date documentation creates friction. Backlogs, PRDs, and design specs are not consistently maintained. Ticket updates after discussions are sometimes forgotten.
@@ -67,6 +79,20 @@ Mentioned for: [[resources/nimble/performance-reviews/2025/Got|Got]], [[resource
 ### Career development and growth structure
 On the design side specifically, there's no clear leveling framework or career path. Designers don't know what's expected at each level or how to grow. This was raised by multiple reviewers for Andrew.
 Mentioned for: [[resources/nimble/performance-reviews/2025/Andrew|Andrew]] (3 reviewers)
+
+## Watch-Outs and Nuances
+
+### Ownership has a flip-side
+Ownership is the team's strongest trait, but it creates secondary issues when unchecked. Clark tends to define responsibility too narrowly ("that's not my ticket"). Got prioritizes speed over structure, creating debt for others. Jack over-prepares and over-scopes MVPs. Development conversations should address *how* people own, not just *whether* they do.
+
+### Vu's feedback style skews toward gaps
+Multiple reviewers note that Vu's feedback emphasizes what's wrong over what's working. This is effective for driving improvement but may reduce confidence over time, especially for junior PMs. Worth calibrating — explicit recognition of strengths alongside development areas.
+
+### Joseph's data is thin
+Joseph was reviewed by only 2 people (Andrew, James Totty). Themes from his review should be held lightly and validated through direct observation before weighting them heavily in development planning.
+
+### No one is praised for innovation
+Across all 11 reviews, no PM is praised for proposing fundamentally new ideas, challenging the product direction, or introducing novel approaches. The team generates ideas within defined scope but doesn't yet drive strategic product thinking independently. This is the biggest gap between where the team is and where a high-performing P&D team should be.
 
 ## Individual Reviews
 

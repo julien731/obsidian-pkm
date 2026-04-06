@@ -114,3 +114,43 @@ While Andrew is great at project-level support, we could benefit from more struc
 - You need to be more critical and keep the bar higher when hiring.
 - You need to start thinking about the design work more holistically in the overall product building process.
 - You need to become way more strict with the usage of branding assets at every level, including sales. E.g., we have many duplicated presentations leading to discrepancies. This is more of a new directive than a failure to be fair.
+
+## Phase 2: AI Synthesis
+
+### Patterns Across Reviewers
+
+**Strong consensus (4+ reviewers):** Andrew creates a psychologically safe, approachable environment. Prajna Vira, Mai, Thien, Laura, and Kade all describe variations of feeling supported, heard, and safe raising concerns. This is his most consistently cited strength.
+
+**Strong consensus (3+ reviewers):** AI and tool adoption leadership. Taus, Laura, and Julien all highlight his drive to push the team toward new workflows (Claude Code, Figma MCP, AI experimentation). He doesn't just adopt tools himself — he actively pushes the team to use them.
+
+**Strong consensus (3+ reviewers):** High design standards and quality focus. Prajna Vira, Got, and Thien cite structured reviews, clean UI, strong UX thinking, and defending design quality with clients.
+
+**Convergent concern (3 reviewers):** Career development and leveling structure is missing. Thien raises it most explicitly (no leveling framework, no promotion criteria), Laura echoes it (no long-term career development planning), and Got frames it as designers not growing fast enough. These three are describing the same gap from different angles.
+
+### Blind Spots
+
+**Andrew likely underestimates how much his team needs structured growth paths.** He invests in tools, standards, and day-to-day support — all visible. But career trajectory clarity is invisible until someone leaves or stagnates. Three reviewers flagging this independently suggests the gap is felt more broadly than he realizes.
+
+**His supportiveness may be masking insufficient challenge.** Got's comment is pointed: "Our designers are good, but their growth isn't accelerating." Mai and Thien praise patience and listening. There may be a pattern where Andrew is so approachable and supportive that he under-pushes people. Being a good listener is not the same as being a demanding mentor.
+
+**He may not see the gap between his own strategic capability and how he's perceived at that level.** Prajna Vira suggests he should engage more in product strategy discussions and communicate high-level design vision. Julien's feedback about thinking more holistically in the product building process points the same direction. Andrew operates well at the craft and team level but hasn't established himself as a strategic voice.
+
+### Strengths Connected to Growth Areas
+
+- **High approachability → under-challenging the team.** The safe environment is real and valuable. But the same instinct that makes Andrew patient and supportive may make him avoid the uncomfortable conversations that accelerate growth. Got's feedback ("their growth isn't accelerating") is the cost side of this strength.
+
+- **Strong craft standards → insufficient strategic visibility.** Andrew upholds quality at the execution level — defending UX with clients (Thien's JB Loyalty example), maintaining clean UI, running structured reviews. But this focus on craft-level excellence may be absorbing energy that could go toward shaping product direction at a higher level. Prajna Vira and Julien both want him operating more strategically.
+
+- **Tool and AI adoption leadership → potential gap in fundamentals.** Andrew is the team's champion for new tools and workflows, which is genuinely valuable. But new tools don't solve the structural gaps (career paths, leveling, mentoring rigor). There's a risk of investing energy in shiny workflow improvements while the foundational people infrastructure remains undefined.
+
+### Development Recommendations
+
+1. **Build and publish a designer leveling framework by end of Q2.** Define 3-4 levels with explicit expectations for craft skill, ownership scope, strategic thinking, and communication. Share it with the team and use it in 1:1s. This directly addresses the concern from Thien, Laura, and Got, and gives Andrew a tool for the harder growth conversations.
+
+2. **Shift 1:1s from support mode to challenge mode.** For each direct report, identify one specific skill gap and create a concrete development goal with a deadline. Track it monthly. "Support" should mean helping people grow faster, not just making them comfortable. Got's feedback is the metric: are designers measurably better than they were 6 months ago?
+
+3. **Take an active seat in product strategy for one project this quarter.** Not just defending design decisions after they're made (which he does well), but shaping the product direction upstream — participating in roadmap discussions, presenting design-led product hypotheses. Start with one project to build the muscle. Prajna Vira and Julien are both asking for this.
+
+4. **Establish branding governance.** Audit existing sales and marketing materials for design inconsistencies. Create a checklist or approval gate for external-facing materials. This is a new directive from Julien, not a past failure — but it's a concrete opportunity to demonstrate strategic design leadership beyond the product team.
+
+5. **Align with Kade on hiring evaluation criteria.** Create a portfolio scoring rubric with 4-5 explicit criteria and weights. Run a calibration session using 3 past portfolios to test alignment. This is a quick win that removes a specific friction point Kade raised.

@@ -118,3 +118,49 @@ When translating requirements from stakeholders to the engineering team, there i
 - You need to plan proactively for everything. E.g., the JPOS pilot rollout. I should not have had to ask all those questions. You should have prepared it all on your own, even if it's not entirely our responsibility. If we're involved, we need to ensure things will work out smoothly.
 - You need to better identify important/dangerous situations. E.g., the CBTL order confirmation email. If they received something from the government, it's a strong signal that we need to be extremely careful with how we're handling it.
 - Overall, mor eownership is required. You have good ownership of the direct work, but you need to go beyond. You need to own anything that touches your project however distant.
+
+## Phase 2: AI Synthesis
+
+### Cross-Reviewer Patterns
+
+**Strong consensus (4+ reviewers):**
+- **Ownership and follow-through** — Prajna, Mike, Quang, Su, and Julien all cite Clark's accountability. He drives tasks to completion, follows up on dependencies, and doesn't wait for others to push progress. This is his most consistently recognized strength.
+- **Communication quality** — Prajna, Mike, Quang, Captain, and Su highlight his clear, comprehensive communication with both the team and external stakeholders. He translates between business needs and technical constraints effectively.
+
+**Moderate consensus (2-3 reviewers):**
+- **Proactive edge case identification** — Su and Julien note this positively (OTP flows, JPOS scenarios), though Mike flags that his *own* QA sometimes misses edge cases — an interesting tension.
+- **Fast ramp-up and context absorption** — Captain and Mike both note how quickly he understood CBTL's complexity.
+- **Approachable and supportive** — Zaw, Quang, and Su describe him as easy to work with, responsive, professional.
+
+**Diverging perspectives:**
+- **Proactivity** — Su and Prajna praise his proactive identification of issues during *development*, but Mike and Julien both note he lacks proactivity at a *strategic* level — he doesn't self-initiate improvements or anticipate what needs to happen next without prompting. This suggests Clark is proactive within defined scope but not yet proactive about expanding that scope.
+
+### Blind Spots
+
+1. **He likely doesn't realize his QA gaps are visible to the team.** Mike provides specific examples of missed edge cases and cross-platform issues. Clark probably sees QA as a secondary responsibility (developers own quality), but the team sees him as a quality gatekeeper who sometimes lets things through.
+
+2. **His "softness" on client pushback may feel like diplomacy to him, but reads as passivity to others.** Mike specifically contrasts him with Got (a more senior PM). Clark likely thinks he's being collaborative; the team sees missed opportunities to protect scope.
+
+3. **The gap between "good direct ownership" and "broader ownership" is probably invisible to him.** Julien's feedback about JPOS rollout planning and the CBTL government email suggests Clark scopes his responsibility too narrowly — if it's not explicitly his ticket, it's not his problem. He probably feels he's doing his job well (and he is, within that boundary).
+
+4. **Conspicuously absent from all feedback: strategic thinking and product vision.** No reviewer praises Clark for challenging requirements, proposing alternative approaches to problems, or connecting work to business outcomes. Prajna hints at this ("could strengthen ability to independently drive discovery") but frames it gently. For a PM — even a junior one — this absence is notable.
+
+### Strength-to-Growth-Area Connections
+
+- **High ownership → narrow scope definition.** Clark's strength in driving tasks to completion may cause him to define "his work" tightly. Expanding ownership to adjacent areas (vendor readiness, rollout planning, cross-team implications) requires deliberately loosening that boundary.
+
+- **Clear communication → over-reliance on verbal/written channels.** Su notes he could use more visual communication (flowcharts, diagrams). His comfort with written communication may mean he defaults to it even when a diagram would be faster and clearer for complex flows.
+
+- **Approachability → soft pushback.** Being easy to work with and responsive is genuinely valued by the team. But the same instinct that makes him approachable may make him avoid conflict with clients. The development path isn't "be less approachable" — it's learning that firm pushback, done respectfully, actually builds more client trust than accommodation.
+
+### Development Recommendations
+
+1. **Practice "what else could go wrong" before marking any ticket Ready for QA.** Before testing, spend 5 minutes listing edge cases, cross-platform differences, and error states. Test those *first*, not last. Mike's specific examples (the missed edge cases in Slack threads) should be reviewed together to build a personal checklist of common blind spots.
+
+2. **For every sprint, identify one thing outside your direct tickets that could derail the sprint — and own it.** This builds the "broader ownership" muscle Julien flagged. Start with dependencies: vendor responses, third-party confirmations, rollout prerequisites. Captain's feedback about prioritizing third-party confirmations earlier is a concrete starting point.
+
+3. **Before accepting any client request that adds scope, write a one-sentence pushback and show it to your TL before sending.** This creates a safe practice loop. The goal isn't to push back on everything — it's to build the reflex of evaluating whether pushback is warranted before defaulting to accommodation. Track how often the TL says "yes, send it" vs. "actually, just accept this one."
+
+4. **For any feature involving more than 2 steps, create a flowchart before writing tickets.** This addresses Su's visual communication feedback and also forces deeper thinking about edge cases (which addresses Mike's QA feedback). Use Mermaid, Whimsical, or even paper — the format matters less than the habit.
+
+5. **Once per sprint, ask yourself: "If I were the client's CPO, what would worry me about this project right now?"** This builds the strategic/discovery thinking Prajna identified. Write down the answer, even if you don't act on it. Over time, this becomes the instinct to challenge assumptions rather than just execute against them.

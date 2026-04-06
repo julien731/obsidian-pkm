@@ -89,3 +89,34 @@ Some of the tickets created seems to be done via AI and is a bit lack of verifyi
 I would love to see you more involved with the Product team in general.
 
 You have many good ideas, you tinker with lots of stuff, but you rarely share. Your contributions would be highly valuable.
+
+## Phase 2: AI Synthesis
+
+### Patterns Across Reviewers
+
+**Strong consensus (4+ reviewers):** Heri is highly responsive and accessible. Taher, Nam, Khanh, Khang, and Suphanat all highlight his availability to clarify questions and unblock developers. This is his clearest, most consistently recognized strength.
+
+**Moderate consensus (2-3 reviewers):** Proactive product thinking — Khanh and Suphanat both note he doesn't just execute but actively suggests improvements (Microsoft Clarity, UX enhancements, spotting errors in flows). Openness to developer input — Nam and Khang both call out that he listens to and adopts team suggestions.
+
+**AI-generated ticket quality (3 reviewers):** Taher, Suphanat, and Khang independently flag that tickets created via AI are unclear, too long, or insufficiently verified. This is the strongest improvement signal — it's specific, repeated, and actionable.
+
+### Blind Spots
+
+- **Heri likely underestimates the impact of AI-generated tickets.** Three of five developer reviewers flagged it, suggesting it's a recurring friction point, not an isolated complaint. He may see AI ticket creation as a productivity gain without realizing it shifts cognitive load onto developers who have to decode unclear requirements.
+- **Acknowledgment gap is small but real.** Nam's comment about not knowing if comments are seen points to a low-effort fix (emoji reactions) that would meaningfully reduce follow-up Slack messages. Heri may not realize this creates friction because the delay is invisible to him.
+- **Conspicuously absent: no one mentions mentoring, delegation, or developing others.** For someone managing a team effectively (Suphanat's words), there's no feedback about growing team members' skills or ownership. This could be a blind spot or simply not yet expected at his level — worth exploring.
+
+### Strength-to-Growth-Area Connections
+
+- **Proactive product thinking ↔ Not sharing broadly.** Julien's observation that Heri tinkers and has good ideas but rarely shares connects directly to the strength Khanh and Suphanat praise. The strength exists but is contained within easyHotel — expanding it to the broader Product team would multiply its value.
+- **AI tool adoption ↔ Ticket quality.** Suphanat praises Heri's use of AI tools as a strength. Three reviewers flag AI-generated tickets as a problem. The same behavior is both a strength (willingness to adopt new tools) and a weakness (insufficient quality control on the output). The fix isn't to stop using AI — it's to add a verification step.
+
+### Development Recommendations
+
+1. **Establish a personal review step for AI-generated tickets.** Before publishing any AI-created ticket, re-read it as if you're a developer seeing it for the first time. Check: Is the objective clear in the first sentence? Is the scope defined? Can you remove 50% of the text without losing meaning? Target: no developer should need to ask a clarifying question on a well-written ticket.
+
+2. **Adopt a "seen it" habit for story comments.** Add an emoji reaction or short reply within 4 hours of any comment on a story you own. This costs seconds but eliminates the uncertainty that drives follow-up Slack messages.
+
+3. **Share one product insight per sprint with the broader Product team.** Pick one thing you discovered, tested, or learned (e.g., a Clarity finding, a UX pattern, a client interaction insight) and post it in the Product team channel. This directly addresses Julien's feedback about contributing more broadly and leverages the proactive thinking your team already values.
+
+4. **Start documenting decisions, not just tickets.** Given Suphanat's note about Heri's strong understanding of critical flows like payments — this knowledge should be externalized. When making a product decision on a key flow, write a brief "why we chose X" note. This builds team resilience and positions Heri as a knowledge leader.

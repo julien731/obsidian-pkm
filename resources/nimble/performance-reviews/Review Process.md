@@ -76,3 +76,15 @@ After drafting all reviews, have AI:
 - **Beware of AI softening critical feedback.** AI defaults to diplomatic hedging. For development areas, be direct — the person deserves clarity.
 - **Don't let AI invent specifics.** If it names a project or metric you didn't provide, delete it.
 - **Privacy.** Keep everything in local Claude sessions or the vault. Don't paste employee feedback into web-based AI tools.
+
+## Reusable Prompt
+
+Copy-paste this into a fresh conversation, replacing the placeholders:
+
+```
+Read @resources/nimble/performance-reviews/Review Process.md to understand the full process.
+
+Then read @resources/nimble/performance-reviews/2025/[NAME].md — this is the 360 feedback file for [NAME].
+
+We are on Phase [N]. Execute that phase for [NAME] following the process document. Write the output directly into their review file.
+```
