@@ -41,6 +41,10 @@ Has a great sense of quality. Strong taste and experience in how good web and mo
 
 Strong at aligning the team around priorities and communicating with stakeholders clearly. When scope gets messy, they step in quickly to cut through the noise and keep us moving. That kind of ownership makes a real difference during high-pressure releases.
 
+### From Julien (me)
+
+- Good job with getting up-to-speed with everything Jollibee. It's a lot.
+
 ## What Could Be Better
 
 ### From Avishek
@@ -55,6 +59,8 @@ Tends to seek guidance or permission before acting when something is clearly wro
 
 When the PM joins early conversations about how something will be built, it helps bridge the gap between product vision and technical reality — and leads to smarter decisions on both sides.
 Also, thinking through edge cases more deeply before handing off requirements would be a big win for the team. When edge cases are missed at the planning stage, they often surface during development and cause scope creep or last-minute rework. A simple habit of asking "what could go wrong?" before finalizing a requirement would reduce that pressure significantly and help the team ship with more confidence.
+
 ### From Julien (me)
 
 - It's great that you work on improving processes and conventions, and you should share it with the wider team. If you find areas for improvement, it's important that you share so that every project can benefit. You must remember: changing processes is fine, changing processes "silently" on certain projects is not. Visibility is lost and other projects don't benefit from potential improvements.
+  - You need to get more involved with the Product team as a whole when it comes to doing improvements and making progress.

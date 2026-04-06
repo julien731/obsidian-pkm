@@ -46,6 +46,13 @@ When problems came up, he didn't just flag them and step back — he rolled up h
 Maintains clear and structured documentation for features and requirements.
 Coordinates discussions between stakeholders and the development team.
 
+### From Julien (me)
+
+- As usual, strong ownership.
+- You've done a great job with deploying Okya and supporting clients.
+- You're setting the right sense of urgency with the team to ensure that we deliver things on time.
+- Great that you're getting more hands-on now using AI.
+
 ## What Could Be Better
 
 ### From Clark
@@ -67,3 +74,11 @@ When working on large and complex features, he should take more time to verify a
 ### From Chuu
 
 Align timelines more realistically with team capacity.
+
+### From Julien (me)
+
+At this point, the main thing holding you back is the same thing we've been discussing many times: you need much more polish, clarity, and precision in what you do.
+
+You have the grit, the mindset, and the practical thinking needed to become a brilliant individual contributor (Principal track). However, you are still struggling to bring clarity and alignment. Your content doesn't look professional enough because of the lack of polish and precision.
+
+You also need to work on better structure and organization. You will need this to bring the level of clarity needed, to ensure you are on track for what you're doing, to avoid surprises, and to better enable the team.

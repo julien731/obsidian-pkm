@@ -52,6 +52,14 @@ He also leverages AI tools to support his workflow, such as generating tickets, 
 
 Heri is very supportive with clarifying concerns and uncertainty. He is also open minded to adopt suggestions made by the development team
 
+### From Julien (me)
+
+- Great job leading easyHotel. The project is moving forward smoothly.
+- You're doing well with pushing the right plans and initiatives with the client.
+- You're doing well with navigating the organization and the rapidly changing landscape.
+- Nice job with upselling additional resources.
+- Question: what are your objectives? Which direction would you like to take? IC/Principal?
+
 ## What Could Be Better
 
 ### From S M Abu Taher
@@ -75,3 +83,9 @@ To improve this, it would be beneficial to ensure that tickets are more concise 
 ### From Khang Bui
 
 Some of the tickets created seems to be done via AI and is a bit lack of verifying thus sometimes it could cause confusion when a developer reads and works on it. He could spend some more time to make sure the ticket is clearer
+
+### From Julien (me)
+
+I would love to see you more involved with the Product team in general.
+
+You have many good ideas, you tinker with lots of stuff, but you rarely share. Your contributions would be highly valuable.

@@ -58,6 +58,12 @@ I worked with Jack for only a few months on the SB project, and overall, it was 
 - Good at handling client requests
   He does a great job balancing client expectations and the team’s capacity. He tries to deliver what’s promised, but at the same time, he’s not afraid to push back on requests that are unclear, redundant, or don’t really make sense. And he does it in a direct but still polite and professional way, which helps the team stay focused.
 
+### From Julien (me)
+
+- Strong ownership
+- Highly resilient
+- Striving to deliver the best value
+
 ## What Could Be Better
 
 ### From Zaw Myo Naing
@@ -83,8 +89,10 @@ We could improve communication to ensure clearer requirements.. sometimes i didn
 ### From Doan Le Thieu
 
 Nothing major comes to mind. Of course, no one is perfect, but from my perspective as a developer, working with Jack makes things smoother and helps the team move faster.
+
 ## From Julien (me)
 
 - You need to be more pragmatic on defining MVPs
 - Too much focus on edge cases, "what if," "they might want to"
 - You need to be more attentive to things that have been tested and confirmed (i.e., the technical details in Okya user stories which should not have been there)
+- You need to start being more hands-on. You've already been experimenting extensively with building with AI. You need to apply this to your work as well. Don't let the old boundary between Engineers and PM stop you. Everything's changing.

@@ -34,6 +34,12 @@ Great at client relationship. He knows how to balance business expectations and 
 
 Within the inSepo discovery project, Joseph impressed me with his delivery speed. I believe the volume and quality of what we produced in that timeframe may have caught the client off guard (although you probably know more than me on that front). While leveraging AI as much as possible was part of the brief, it still required discipline to execute well. Joseph and I established a solid workflow to keep our documents in sync and deliver a comprehensive solution. He was a strong collaborator under a tight deadline and a joy to work with. He knew how to guide and help me when I was having to handle 7-8 interviews a week and code challenges on top of the solution architecture.
 
+### From Julien (me)
+
+- Strong ownership as always.
+- Eager to move forward in the AI era.
+- Good job on upping the professional look.
+
 ## What Could Be Better
 
 ### From Andrew
@@ -45,6 +51,8 @@ Alignment on design before key client meetings. I already shared this directly w
 ### From James Totty
 
 Can't think of anything.
+
 ### From Julien (me)
 
 - Need to be more proactive on warning and/or pushing back when things get too far off track. E.g., the booking engine for InSepo. You did inform the client of the effort, but it's too mild.
+- You need to rethink your approach to AI-first work. You are too focused on tasks rather than workfows.

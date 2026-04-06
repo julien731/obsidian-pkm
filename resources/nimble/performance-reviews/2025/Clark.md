@@ -72,6 +72,12 @@ On the other hand, he showed strong ownership by managing dependencies across te
 
 Clark demonstrated openness to input from the team. When his proposed solutions were challenged (for the timezone edge case, etc), he acknowledged the feedback and adjusted his approach. This willingness to adapt helped maintain team trust and kept discussions productive.
 
+### From Julien (me)
+
+- Good job catching up with the project's context and history
+- Proactive in seeking help and guidance
+- Solution-oriented, good ownership of the direct work
+
 ## What Could Be Better
 
 ### From Prajna Vira
@@ -106,6 +112,9 @@ Sometimes he forgets to update the ticket after team discussions, especially whe
 Clark could enhance his communication by incorporating more visual diagrams— such as flowcharts, sequence diagrams, or state diagrams—when presenting complex features or issues.
 
 When translating requirements from stakeholders to the engineering team, there is room for Clark to be more structured and explicit. At times, context or constraints from stakeholder discussions may not be fully captured in tickets or Slack threads, leading to assumptions or follow-up questions. A consistent format for documenting requirements—covering the "why" behind decisions, acceptance criteria, and known constraints—would help the team move faster with fewer ambiguities.
+
 ### From Julien (me)
+
 - You need to plan proactively for everything. E.g., the JPOS pilot rollout. I should not have had to ask all those questions. You should have prepared it all on your own, even if it's not entirely our responsibility. If we're involved, we need to ensure things will work out smoothly.
 - You need to better identify important/dangerous situations. E.g., the CBTL order confirmation email. If they received something from the government, it's a strong signal that we need to be extremely careful with how we're handling it.
+- Overall, mor eownership is required. You have good ownership of the direct work, but you need to go beyond. You need to own anything that touches your project however distant.

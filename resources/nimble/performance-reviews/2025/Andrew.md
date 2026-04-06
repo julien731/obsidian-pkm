@@ -73,6 +73,10 @@ In addition, he proactively explores new tools, ideas, and best practices, and t
 
 - Maintains a transparent culture where designers feel safe sharing concerns and addressing project roadblocks early.
 
+### From Julien (me)
+
+- Good job pushing the team to learn and get involved with AI.
+
 ## What Could Be Better
 
 ### From Kade
@@ -93,10 +97,6 @@ He should spend more time mentoring, giving structured feedback, and helping bri
 
 We can try to expand the connection with the other designer community that will help us increase the knowledge and can learn from each other.
 
-### From Mai
-
-
-
 ### From Thien
 
 One opportunity I see for further strengthening the team is around career path clarity and leveling structure for designers. Currently, the expectations between different UX/UI levels are not very transparent, and there aren’t clearly defined objectives or competencies that designers can actively work toward in order to grow or be promoted.
@@ -112,3 +112,5 @@ While Andrew is great at project-level support, we could benefit from more struc
 ### From Julien (me)
 
 - You need to be more critical and keep the bar higher when hiring.
+- You need to start thinking about the design work more holistically in the overall product building process.
+- You need to become way more strict with the usage of branding assets at every level, including sales. E.g., we have many duplicated presentations leading to discrepancies. This is more of a new directive than a failure to be fair.
