@@ -1,4 +1,3 @@
-# Team Performance Assessment Extension
 
 Extend the meeting self-assessment system to track team members' performance using the same framework.
 

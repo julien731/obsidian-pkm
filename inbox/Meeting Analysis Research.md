@@ -1,4 +1,3 @@
-# Meeting Analysis Research
 
 Research compiled for refining meeting analysis templates and developing team performance analytics.
 
