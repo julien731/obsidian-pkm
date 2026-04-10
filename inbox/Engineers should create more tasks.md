@@ -1,0 +1,1 @@
+Given how quick it is to create a task in the backlog for something that needs to be done but that's currently blocked, for example, Engineers should strive for consistent progress by quickly logging and documenting those things and move to the next unblocked task that gets closer to the objective.
