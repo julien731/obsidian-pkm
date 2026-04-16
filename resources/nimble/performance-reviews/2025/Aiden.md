@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Aiden (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Merit increase (last adjustment: Aug 2024, 20 months ago)
+>
+> **Key Strengths:** Exceptional ownership and proactiveness (4 reviewers); strong work ethic and capacity under pressure; clear communication of priorities; effective UX advocacy and design engagement.
+>
+> **Development Areas:** Written communication tone can read as blunt or blaming (3 reviewers); cross-platform context sometimes missing from tickets; upfront requirement validation needs strengthening to reduce rework.
+>
+> **Rationale:** Solid PM delivering consistent results. Development areas are coachable and don't diminish her core value. Increase is overdue and warranted.
+
 ## Summary
 
 **Strengths:**

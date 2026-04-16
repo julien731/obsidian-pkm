@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Andrew (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Conditional increase — publish designer leveling framework by end of Q2
+>
+> **Key Strengths:** Proactive AI and tool adoption champion (Claude Code, Figma MCP); approachable and supportive leadership creating psychological safety; consistently upholds high design standards; strong knowledge sharing and initiative.
+>
+> **Development Areas:** Career path and leveling clarity missing for design team (3 reviewers); team growth not visibly accelerating — needs more structured mentoring; strategic visibility in product discussions could be stronger.
+>
+> **Rationale:** Excellent on craft and team support, but core Lead responsibility (career framework) remains unfulfilled. Condition addresses the blocker before compensation adjustment.
+
 ## Summary
 
 **Strengths:**

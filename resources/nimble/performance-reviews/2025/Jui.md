@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Jui (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Merit increase (hired May 2025, 11 months ago)
+>
+> **Key Strengths:** Approachable and responsive — quick to unblock the team; well-structured stories and effective QA; proactive problem-solving; positive team presence.
+>
+> **Development Areas:** Taking more proactive ownership (was passive on Okya but improving); verbal communication confidence; ticket consistency — some lack sufficient detail.
+>
+> **Rationale:** Showing clear growth trajectory and taking more ownership over time. Early increase warranted to recognize progress and retain momentum.
+
 ## Summary
 
 **Strengths:**

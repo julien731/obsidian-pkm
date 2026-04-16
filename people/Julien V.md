@@ -14,6 +14,10 @@ related:
 
 Julien V. is the Principal Product Manager at Nimble, a software consultancy. He focuses on product strategy, PM team excellence, and building influence with corporate clients. He works under [[people/Vu]] (Head of Product) and collaborates with [[people/Andrew]] (Lead Designer).
 
+## Compensation History
+
+- **Last increase:** Jan 16, 2025
+
 ## Overview
 
 Julien V. is the Principal Product Manager at Nimble, focused on product strategy and PM excellence.

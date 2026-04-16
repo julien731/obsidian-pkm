@@ -14,14 +14,25 @@ related:
 
 Got is a Senior Product Manager at Nimble, a software consultancy. He is based in Bangkok and reports to Julien (CPO). His goal is to become a Principal Product Manager.
 
+## Compensation History
+
+- **Last increase:** Jan 16, 2025
+
 ## 2025 Performance Review Notes
 
-- Too messy. You need to plan more. Without plans, things always get out of hand. Especially when there is a rush.
-    - E.g., JS rollout plan, or lack thereof.
-    - E.g., inventory (stock in/out) there was no proper documentation and [I discovered the spreadsheet](https://docs.google.com/spreadsheets/d/1tg_aINW3LlJnc_x-VTEK3jZuCRqUOmR5/edit?usp=sharing&ouid=105159994772364082859&rtpof=true&sd=true) on the 17.
-- Too many workarounds. E.g., the payment methods on POS. If no choice, at least document. Otherwise the team is left with unexpected problems.
-- You need to organize artifact better. E.g., Notion (many random pages), Metabase dashboard.
-    - Overall quality of your deliverables needs to improve.
-    - Metabase dashboard was very messy and had lots of discrepancies.
-- You allow too much rush. You need to set better boundaries with stakeholders. E.g., T21, 5 more stores deployment.
-- You need to better assess the impact of what you do and how to properly plan your actions. Example: https://nimble-co.slack.com/archives/C09RZK3PT60/p1764815248699249
+### Manager Assessment (2025 Review Cycle)
+
+**Key Strengths:**
+- Extremely hard worker — consistently puts in late nights and is available on weekends when needed
+- Strong driver with extremely high ownership of his project
+- Ensured successful delivery to the client despite challenging situations and very difficult timelines
+- Hands-on approach with store visits and client issue resolution
+
+**Development Areas (from 360 feedback):**
+- AI-generated ticket quality needs verification step (tickets look polished but may lack edge case thinking)
+- Documentation and knowledge transfer gaps — handoffs lack up-to-date context
+- Tendency toward quick fixes over robust solutions
+- Timeline alignment with team capacity
+
+**Overall Assessment:**
+Strong execution and ownership under pressure. Delivered despite challenging circumstances. Development areas are process/quality control issues that can be addressed without diminishing the value of his hustle and commitment.

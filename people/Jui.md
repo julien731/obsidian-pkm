@@ -13,3 +13,7 @@ related:
 ---
 
 Jui is a Junior Product Manager at Nimble, a software consultancy. She is based in Bangkok and reports to Julien (CPO).
+
+## Compensation History
+
+- **Hired:** May 9, 2025

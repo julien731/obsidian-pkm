@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Heri (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Merit increase (hired Oct 2024, 18 months ago — first review cycle)
+>
+> **Key Strengths:** Silent but strong ownership — handles everything with minimal escalation; effectively navigating complex political landscape since client VC acquisition; managing scrutiny, questions, and justifications professionally; proactive product improvements and UX advocacy.
+>
+> **Development Areas:** AI-generated ticket quality needs verification (3 reviewers); acknowledgment of story comments could be faster; more visibility/sharing with broader Product team.
+>
+> **Rationale:** Manager override: "no news is good news" management of a difficult client situation is exactly what's needed. Strong, steady performer deserving first adjustment.
+
 ## Summary
 
 **Strengths:**

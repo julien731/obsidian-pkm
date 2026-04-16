@@ -13,3 +13,7 @@ related:
 ---
 
 Tony is a mid-senior Product Manager at Nimble, a software consultancy. He is based in Bangkok and reports to Julien (CPO). He works closely with [[people/Vu]] and will soon move under his management.
+
+## Compensation History
+
+- **Hired:** Nov 26, 2024

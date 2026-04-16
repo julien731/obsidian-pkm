@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Joseph (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Hold — validate through direct observation before compensation decision
+>
+> **Key Strengths:** Strong communication and collaboration; effective client relationship management; fast delivery under pressure during discovery work.
+>
+> **Development Areas:** Decisiveness on timelines and sign-offs — needs to push harder for clear client decisions; internal alignment before client meetings; insufficient pushback when things go off track.
+>
+> **Rationale:** Only 2 reviewers (Andrew, James Totty). Team Summary notes: "themes should be held lightly." Need 3-6 months direct observation to validate feedback before weighting in compensation decision.
+
 ## Summary
 
 **Strengths:**

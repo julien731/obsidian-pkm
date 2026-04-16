@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Vu (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Merit increase (last adjustment: Jan 2025, 15 months ago)
+>
+> **Key Strengths:** Leadership through uncertainty — creates clarity in ambiguous situations; evidence-based execution — POCs to validate assumptions; team development — detailed feedback focused on teaching frameworks; clear, professional communication; responsive and action-oriented.
+>
+> **Development Areas:** Feedback balance — skews toward gaps over strengths; expectation clarity — standards for depth vs. speed not always explicit; proactive initiatives — needs to drive more non-client-driven improvements.
+>
+> **Rationale:** Strong Head of Product performance. Minor feedback style and initiative gaps don't detract from overall effectiveness. Overdue for adjustment.
+
 ## Summary
 
 **Strengths:**

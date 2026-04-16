@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Julien V. (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Merit increase (last adjustment: Jan 2025, 15 months ago)
+>
+> **Key Strengths:** Strong ownership and high standards that others follow; supportive and collaborative — trusted partner who empowers engineers; technical depth with product balance; efficient execution through ambiguity; clear, structured communication.
+>
+> **Development Areas:** Requirement depth for complex features — more detailed AC and earlier edge case identification; ownership delegation calibration — reading audience readiness; stronger hand when necessary — escalate faster.
+>
+> **Rationale:** Strong Principal PM performance on most complex projects. Minor calibration issues are normal at this level. Overdue for adjustment.
+
 ## Summary
 
 **Strengths:**

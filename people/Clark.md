@@ -13,3 +13,7 @@ related:
 ---
 
 Clark is a Junior Product Manager at Nimble, a software consultancy. He is based in Bangkok and reports to Julien (CPO).
+
+## Compensation History
+
+- **Hired:** Jul 1, 2025

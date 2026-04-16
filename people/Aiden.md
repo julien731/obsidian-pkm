@@ -16,6 +16,10 @@ related:
 
 Aiden (also known as Kieu) is a Product Manager at Nimble, a software consultancy.
 
+## Compensation History
+
+- **Last increase:** Aug 30, 2024
+
 ## Notes
 
 ### 2021-09-30 - Individual Onboarding

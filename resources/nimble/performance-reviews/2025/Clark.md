@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Clark (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Promote to Product Manager (no compensation adjustment — hired Jul 2025, 9 months ago)
+>
+> **Key Strengths:** Strong ownership and accountability (4 reviewers); clear communication and stakeholder management; fast ramp-up on complex project; approachable and supportive team member.
+>
+> **Development Areas:** Strategic and discovery thinking still developing; client pushback softer than senior PMs; broader ownership beyond direct tickets needed.
+>
+> **Rationale:** 6 reviewers confirm PM-level accountability and execution. Promotion recognizes demonstrated capability and retains high-potential talent. Comp adjustment deferred due to tenure.
+
 ## Summary
 
 **Strengths:**

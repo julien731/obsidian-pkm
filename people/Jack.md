@@ -13,3 +13,7 @@ related:
 ---
 
 Jack is a mid-senior Product Manager at Nimble, a software consultancy. He is based in Bangkok and reports to Julien (CPO).
+
+## Compensation History
+
+- **Last increase:** Jan 16, 2025

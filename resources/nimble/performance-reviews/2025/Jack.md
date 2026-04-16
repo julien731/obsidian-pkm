@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Jack (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Merit increase (last adjustment: Jan 2025, 15 months ago)
+>
+> **Key Strengths:** Proactive and always ahead — anticipates needs and prepares documentation; clear communication translating complex info to clear stories; strong client management with professional pushback; calm under pressure; reliable and organized.
+>
+> **Development Areas:** MVP pragmatism — tends to over-scope and over-prepare; frustration management with difficult stakeholders; applying AI tools to actual PM workflows (experiments but doesn't deploy).
+>
+> **Rationale:** Strong performance across 5 reviewers. Minor gaps don't block recognition. Overdue for adjustment.
+
 ## Summary
 
 **Strengths:**

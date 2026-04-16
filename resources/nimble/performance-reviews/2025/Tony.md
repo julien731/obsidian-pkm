@@ -11,6 +11,16 @@ related:
 
 # 360 Review: Tony (2025)
 
+> **TL;DR Executive Summary**
+>
+> **Recommendation:** Hold — revisit next cycle (hired Dec 2025, only 4 months ago)
+>
+> **Key Strengths:** Quality mindset — raised the team's quality bar; clear communication and test-case innovation in stories; fast learner with visible progress; strong ownership under pressure.
+>
+> **Development Areas:** Proactiveness and autonomy — tends to seek permission before acting; edge case thinking earlier in planning (currently strong at testing phase only); sharing process improvements with wider team.
+>
+> **Rationale:** Strong trajectory but too recent for adjustment. High potential talent — revisit at next review cycle (expected: ~8-10 months from now).
+
 ## Summary
 
 **Strengths:**
