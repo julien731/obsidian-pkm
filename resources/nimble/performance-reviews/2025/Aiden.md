@@ -36,6 +36,14 @@ related:
 - Pressure management (1) — a more measured approach in challenging moments would ease pressure on the dev team
 - Consistency in decision-making (1) — sometimes doesn't fight for her ideas, other times fights for the wrong ones; needs more consistency
 
+## From Vu (her manager)
+
+Aiden is not yet at the senior levels. So I think there's no change in her seniority level  
+
+- She has improved her technical knowledge significantly since last time we review. AI adoption is overall good and proactive.
+- Managing project, ownership are improved as well. She's good and has a lot of improvement to be better.
+- Communication is the big gap, both internally and externally. This area holds her back. 80% of her good ideas and intentions lost in her communication. And she can't build closer relationship with external stakeholder. This is the main reason why I don't put her at senior level.
+- Product thinking: I see her improvement. But I expect more on how she can build a herself a guiding principle on good vs bad product and consistently  use it in different situation. At this point she can execute well when I point out the product direction, but she still couldn't think autonomously, especially in chaos.
 ## What Went Well
 
 ### From Tyson
